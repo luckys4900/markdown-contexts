@@ -1,13 +1,20 @@
 ---
-date: 2026-04-28
-category: analysis
-tags: [token-optimization, multi-agent, cost-reduction, performance]
-title: トークン最適化分析 - マルチエージェントシステムの効果検証
-process_type: performance_analysis
-reviewed_files: [memory/multi_agent_model_assignment.md, multi_agent_config.yaml]
-analysis_depth: comprehensive
-token_usage: 0
+# メタ情報
+作成日: 2026-04-28
+カテゴリ: analysis
+タイトル: トークン最適化分析 - マルチエージェントシステムの効果検証
+
+# タグ（ドメイン・重要度・トピック）
+タグ:
+  ドメイン: []
+  重要度: []
+  トピック: []
+
+# 自動生成情報
+生成元: opencode
+バージョン: 1.0
 ---
+
 
 # トークン最適化分析レポート
 
