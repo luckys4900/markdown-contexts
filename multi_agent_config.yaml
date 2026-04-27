@@ -84,15 +84,16 @@ agents:
       - error_handling
 
   analysis_agent:
-    provider: "z_ai"
-    max_tokens: 2000
+    provider: "ollama/gemma4"
+    max_tokens: 8000
     temperature: 0.3
-    timeout: 90
-    role: "データ分析・統計検証・パターン発見"
+    timeout: 120
+    role: "高度なデータ分析・統計検証・パターン発見"
     optimal_for:
       - statistical_analysis
       - pattern_recognition
       - complex_reasoning
+      - multimodal_analysis
     fallback: "ollama/qwen3:8b"
 
   research_agent:
@@ -132,7 +133,7 @@ agents:
     fallback: "ollama/qwen3:8b"
 
   preprocess_agent:
-    provider: "openrouter/meta/llama-3.2-1b"
+    provider: "ollama/llama3.2:1b"
     max_tokens: 800
     temperature: 0.2
     timeout: 30
@@ -141,7 +142,7 @@ agents:
       - data_cleaning
       - preprocessing
       - filtering
-    fallback: "ollama/llama3.2:1b"
+    fallback: "ollama/qwen3:8b"
 
   summary_agent:
     provider: "openrouter/google/gemini-flash"
@@ -295,8 +296,6 @@ debug:
     hot_reload: true
     config_validation: true
     performance_profiling: false
-
----
 
 # 使用方法
 # 1. 環境変数を設定: export OPENROUTER_API_KEY=your_key

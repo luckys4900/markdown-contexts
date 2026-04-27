@@ -81,17 +81,29 @@ class MultiAgentOrchestrator:
 
         try:
             async with self.session.post(url, json=payload, timeout=agent_config['timeout']) as response:
-                result = await response.json()
+                # OllamaはNDJSON（改行区切りJSON）を返す
+                content = ""
+                total_tokens = 0
+
+                async for line in response.content:
+                    if line:
+                        try:
+                            json_line = json.loads(line.decode('utf-8'))
+                            if 'response' in json_line:
+                                content += json_line['response']
+                            if 'eval_count' in json_line:
+                                total_tokens = json_line['eval_count']
+                        except json.JSONDecodeError:
+                            continue
 
                 # トークン使用量を記録
-                tokens_used = result.get('eval_count', 0)
-                self.token_usage += tokens_used
+                self.token_usage += total_tokens
                 self.total_tasks += 1
 
                 return {
                     'success': True,
-                    'content': result.get('response', ''),
-                    'tokens_used': tokens_used,
+                    'content': content,
+                    'tokens_used': total_tokens,
                     'model': agent_config['model']
                 }
 
@@ -220,7 +232,7 @@ class MultiAgentOrchestrator:
 async def main():
     """メイン実行関数"""
 
-    print("🤖 マルチエージェントオーケストレーター起動")
+    print("マルチエージェントオーケストレーター起動")
     print("========================================")
 
     async with MultiAgentOrchestrator() as orchestrator:
@@ -234,23 +246,23 @@ async def main():
         ]
 
         for query, task_type in sample_queries:
-            print(f"\n🔍 処理中: {query}")
+            print(f"\n処理中: {query}")
             print(f"  タスクタイプ: {task_type}")
 
             result = await orchestrator.analyze_with_agents(query, task_type)
 
             if result['success']:
-                print(f"   ✅ 成功")
-                print(f"   📊 トークン使用量: {result['total_tokens']}")
-                print(f"   📈 平均トークン/タスク: {result['avg_tokens_per_task']:.1f}")
+                print(f"   成功")
+                print(f"   トークン使用量: {result['total_tokens']}")
+                print(f"   平均トークン/タスク: {result['avg_tokens_per_task']:.1f}")
 
                 if result['summary'] and result['summary']['success']:
-                    print(f"   📋 要約: {result['summary']['content'][:100]}...")
+                    print(f"   要約: {result['summary']['content'][:100]}...")
             else:
-                print(f"   ❌ 失敗: {result['error']}")
+                print(f"   失敗: {result['error']}")
 
     print("\n========================================")
-    print("🎯 すべての処理が完了しました")
+    print("すべての処理が完了しました")
 
 if __name__ == "__main__":
     asyncio.run(main())
