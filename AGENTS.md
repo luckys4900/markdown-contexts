@@ -106,3 +106,132 @@ streamlit run app.py
 - 監視モジュール: `dashboard/agent_monitor.py`
 - 視覚化モジュール: `dashboard/visualizer.py`
 - デプロイ設定: `.github/workflows/deploy-dashboard.yml`
+
+## RAG（ベクトル検索）ルール
+
+### 基本原則
+- **分析・調査開始時にRAGで既存コンテキストを参照**
+- **ベクトル検索で最も関連性の高い文書を自動抽出**
+- **トークン使用量を制限し、Master Agentへの負荷を軽減**
+
+### RAG検索フロー
+1. クエリをEmbeddingモデルでベクトル化
+2. Vector DB（Chroma）で類似度検索
+3. トークン制限に合わせて文書を切り詰め
+4. Master Agentへ最適化されたコンテキストを提供
+
+### 使用方法
+```python
+from pipeline.rag_retriever import retriever
+
+# コンテキスト検索
+context_data = retriever.retrieve_context(
+    query="RSI戦略の最適化",
+    top_k=5,
+    category="strategy"
+)
+
+# コンテキストプロンプト生成
+prompt = retriever.build_context_prompt(
+    query="RSI戦略の最適化",
+    max_context_docs=3
+)
+```
+
+### トークン最適化
+- `max_tokens` パラメータで使用トークンを制限（デフォルト: 8000）
+- 関連性スコア（similarity）でフィルタリング（デフォルト: 0.3以上）
+- 重要度順に文書を切り出し、効率的にコンテキストを構築
+
+## MCP（Model Context Protocol）ルール
+
+### 基本原則
+- **外部データベース・エージェント間連携・ストレージ連携をMCPで実現**
+- **通信履歴をSQLiteで永続化**
+- **キャッシュ機構で重複検索を回避**
+
+### MCP連携機能
+1. **エージェント通信**: エージェント間のメッセージ送受信
+2. **コンテキストキャッシュ**: 検索結果をキャッシュし再利用
+3. **インサイト保存**: 分析結果の洞察をデータベースに保存
+4. **ストレージ連携**: S3/MinIOとの連携
+
+### 使用方法
+```python
+from pipeline.mcp_connector import connector
+
+# エージェント登録
+connector.register_agent(
+    agent_id="analyzer_1",
+    agent_name="Analyzer Agent",
+    capabilities=["analysis", "pattern_detection"]
+)
+
+# メッセージ送信
+connector.send_message(
+    from_agent="analyzer_1",
+    to_agent="master",
+    message_type="analysis_complete",
+    payload={"result": "..."}
+)
+
+# インサイト保存
+connector.store_insight(
+    insight_type="pattern",
+    content="RSI < 30で逆張りが有効",
+    source_file="strategy/rsi_analysis.md",
+    tags=["pattern", "rsi"]
+)
+```
+
+## 自動記憶パイプライン
+
+### 基本原則
+- **分析完了後に洞察を自動抽出**
+- **YAMLフロントマターを自動生成**
+- **memory/ディレクトリへ自動保存**
+- **MCPコネクタでデータベースに永続化**
+
+### 自動記憶フロー
+1. 分析結果から洞察を抽出（パターン認識）
+2. YAMLフロントマターを自動生成
+3. memory/ディレクトリにMDファイルとして保存
+4. MCPコネクタでSQLiteにインサイトを保存
+5. Vector DBにインデックス追加
+
+### 抽出される洞察タイプ
+- `finding`: 発見事項
+- `conclusion`: 結論
+- `recommendation`: 推奨事項
+- `pattern`: パターン・傾向
+- `risk`: リスク・懸念
+- `opportunity`: 機会・可能性
+
+## Prefectワークフロー
+
+### 基本原則
+- **分析プロセスをワークフローとして定義**
+- **タスクの依存関係を自動管理**
+- **エラーハンドリング・再試行を実装**
+
+### ワークフロー一覧
+1. **context_analysis_flow**: 単一クエリの分析
+2. **batch_analysis_flow**: 複数クエリのバッチ処理
+3. **index_rebuild_flow**: Vector DBの再構築
+
+### 使用方法
+```bash
+# Prefectサーバー起動
+prefect server start
+
+# 分析フロー実行
+cd pipeline
+python prefect_flows.py "RSI戦略の最適化"
+```
+
+### 詳細設計
+- RAGモジュール: `pipeline/rag_retriever.py`
+- Embeddingストア: `pipeline/embedding_store.py`
+- MCPコネクタ: `pipeline/mcp_connector.py`
+- 自動記憶: `pipeline/auto_memory.py`
+- Prefectフロー: `pipeline/prefect_flows.py`

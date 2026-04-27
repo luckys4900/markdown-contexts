@@ -1,0 +1,18 @@
+prefect:
+  api_url: "http://127.0.0.1:4200/api"
+
+logging:
+  level: "INFO"
+
+flows:
+  default_deployment_mode: "local"
+  enforce_parameter_schema: false
+
+execution:
+  default_task_concurrency_limit: 10
+
+storage:
+  default_block_type: "local-file-system"
+
+results:
+  default_persist_result: true

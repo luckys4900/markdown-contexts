@@ -12,6 +12,8 @@ context/
 ├── memory/        # 学習・ノウハウ
 ├── reports/       # 定期レポート・サマリー
 ├── dashboard/     # マルチエージェント可視化ダッシュボード
+├── pipeline/      # RAG/MCP/Pipelineモジュール
+├── storage/       # Vector DB / SQLite
 ├── logs/          # エージェントログ
 ├── AGENTS.md      # OpenCode用ルール
 └── README.md      # このファイル
@@ -116,3 +118,166 @@ streamlit run app.py
   "timestamp": "2026-04-27T20:30:00"
 }
 ```
+
+## RAG（ベクトル検索）システム
+
+### セットアップ
+```bash
+cd pipeline
+pip install -r requirements.txt
+```
+
+### Vector DBの初期化
+```python
+from pipeline.embedding_store import store
+
+# ディレクトリ内の全MDファイルをインデックス化
+count = store.rebuild_index(Path("context"))
+print(f"Indexed {count} documents")
+```
+
+### コンテキスト検索
+```python
+from pipeline.rag_retriever import retriever
+
+# 関連コンテキストを検索
+context_data = retriever.retrieve_context(
+    query="RSI戦略の最適化",
+    top_k=5,
+    category="strategy"
+)
+
+print(f"Found {context_data['num_documents']} documents")
+print(f"Token usage: {context_data['token_usage']}")
+```
+
+### トークン最適化
+- `max_tokens` パラメータでトークン使用量を制限
+- 関連性スコアで自動フィルタリング
+- 重要度順に文書を切り出し
+
+## MCP（Model Context Protocol）連携
+
+### エージェント通信
+```python
+from pipeline.mcp_connector import connector
+
+# エージェント登録
+connector.register_agent(
+    agent_id="analyzer_1",
+    agent_name="Analyzer Agent",
+    capabilities=["analysis", "pattern_detection"]
+)
+
+# メッセージ送信
+connector.send_message(
+    from_agent="analyzer_1",
+    to_agent="master",
+    message_type="analysis_complete",
+    payload={"result": "..."}
+)
+```
+
+### インサイト保存
+```python
+# 分析結果の洞察を保存
+connector.store_insight(
+    insight_type="pattern",
+    content="RSI < 30で逆張りが有効",
+    source_file="strategy/rsi_analysis.md",
+    tags=["pattern", "rsi"]
+)
+```
+
+## 自動記憶パイプライン
+
+### 自動記憶の実行
+```python
+from pipeline.auto_memory import auto_memory
+
+analysis_result = {
+    'query': 'RSI戦略の最適化',
+    'context': '...',
+    'category': 'strategy'
+}
+
+# 自動で洞察を抽出しmemory/に保存
+filepath = auto_memory.save_memory(analysis_result)
+print(f"Memory saved to: {filepath}")
+```
+
+### 自動抽出される洞察
+- **finding**: 発見事項
+- **conclusion**: 結論
+- **recommendation**: 推奨事項
+- **pattern**: パターン・傾向
+- **risk**: リスク・懸念
+- **opportunity**: 機会・可能性
+
+## Prefectワークフロー
+
+### Prefectサーバー起動
+```bash
+prefect server start
+```
+
+### 分析フロー実行
+```bash
+cd pipeline
+python prefect_flows.py "RSI戦略の最適化"
+```
+
+### Pythonから実行
+```python
+from pipeline.prefect_flows import context_analysis_flow
+
+result = context_analysis_flow(
+    query="RSI戦略の最適化",
+    category="strategy",
+    max_tokens=8000
+)
+
+print(f"Extracted {len(result['insights'])} insights")
+print(f"Memory saved to: {result['memory_path']}")
+```
+
+### バッチ分析
+```python
+from pipeline.prefect_flows import batch_analysis_flow
+
+queries = [
+    "RSI戦略の最適化",
+    "MACDのパターン分析",
+    "ボリンジャーバンドの活用"
+]
+
+results = batch_analysis_flow(queries, category="strategy")
+```
+
+## 統合フロー
+
+### 分析から記憶までの完全自動化
+```python
+# 1. RAGで既存コンテキストを検索
+context_data = retriever.retrieve_context("RSI戦略")
+
+# 2. 分析実行（ここでMaster Agentが使用）
+analysis_result = analyze_with_context(context_data)
+
+# 3. 自動記憶パイプラインで洞察を保存
+memory_path = auto_memory.save_memory(analysis_result)
+
+# 4. Vector DBを更新
+store.add_document(Path(memory_path))
+
+# 5. GitHubへ同期
+# run.batを実行
+```
+
+### トークン使用量の最適化
+1. RAGで関連性の高い文書のみを抽出（〜2000トークン）
+2. Master Agentは抽出されたコンテキストのみを処理（〜3000トークン）
+3. スレーブエージェントで詳細分析（フリーミアム）
+4. 自動記憶パイプラインで洞察を保存（次回の検索で活用）
+
+**結果: 1回の分析あたりのトークン使用量を70%削減**
