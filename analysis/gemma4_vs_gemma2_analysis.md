@@ -1,14 +1,20 @@
 ---
-date: 2026-04-28
-category: analysis
-tags: [gemma4, gemma2, model-comparison, performance, availability]
-title: Gemma 4 vs Gemma 2 比較分析 - 現状と実用性評価
-process_type: model_comparison
-analysis_method: technical_assessment
-data_source: google-releases, benchmarks, community-feedback
-token_usage: 0
-current_status: gemma2_available, gemma4_uncertain
+# メタ情報
+作成日: 2026-04-28
+カテゴリ: analysis
+タイトル: Gemma 4 vs Gemma 2 比較分析 - 現状と実用性評価
+
+# タグ（ドメイン・重要度・トピック）
+タグ:
+  ドメイン: []
+  重要度: []
+  トピック: []
+
+# 自動生成情報
+生成元: opencode
+バージョン: 1.0
 ---
+
 
 # Gemma 4 vs Gemma 2 比較分析
 
