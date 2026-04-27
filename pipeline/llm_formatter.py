@@ -1,24 +1,38 @@
 import os
-import requests
+from openai import OpenAI
 from typing import Optional, Dict, Any
-import json
+from datetime import datetime
+from dotenv import load_dotenv
 
 class LLMFormatter:
     def __init__(self):
+        load_dotenv()
+        
         self.primary_api_key = os.getenv("ZAI_API_KEY", "")
         self.openrouter_api_key = os.getenv("OPENROUTER_API_KEY", "")
         
         # モデル設定
         self.primary_models = [
-            "zai-coding-plan/model",  # z.ai coding planのモデル
-            "anthropic/claude-3-haiku",  # 低コスト
+            "glm-4-flash",     # GLM-4 Flash（高速・低コスト）
+            "glm-4",           # GLM-4
         ]
         
         self.fallback_models = [
-            "google/gemini-flash-1.5",  # 高速・低コスト
-            "meta-llama/llama-3.2-3b-instruct:free",  # 無料
-            "meta-llama/llama-3.1-8b-instruct:free",  # 無料
+            "google/gemini-flash-1.5",
+            "meta-llama/llama-3.2-3b-instruct:free",
+            "meta-llama/llama-3.1-8b-instruct:free",
         ]
+        
+        # デバッグ用: APIキーを表示（セキュリティ上、最初の数文字のみ）
+        if self.primary_api_key:
+            print(f"  [DEBUG] ZAI_API_KEY: {self.primary_api_key[:8]}...")
+        else:
+            print(f"  [WARN] ZAI_API_KEY not set in environment variables")
+        
+        if self.openrouter_api_key:
+            print(f"  [DEBUG] OPENROUTER_API_KEY: {self.openrouter_api_key[:8]}...")
+        else:
+            print(f"  [WARN] OPENROUTER_API_KEY not set in environment variables")
     
     def format_with_llm(self, content: str, title: str = "Untitled") -> tuple[str, str]:
         """LLMを使ってTXTを構造化MDに変換"""
@@ -53,100 +67,87 @@ class LLMFormatter:
         # プロンプトの作成
         prompt = self._create_prompt(content, title)
         
-        # API設定
-        if primary:
-            # z.ai coding planのAPI
-            api_url = "https://api.zai.ai/v1/chat/completions"
-            headers = {
-                "Authorization": f"Bearer {self.primary_api_key}",
-                "Content-Type": "application/json"
-            }
-        else:
-            # OpenRouterのAPI
-            api_url = "https://openrouter.ai/api/v1/chat/completions"
-            headers = {
-                "Authorization": f"Bearer {self.openrouter_api_key}",
-                "Content-Type": "application/json",
-                "HTTP-Referer": "https://github.com/luckys4900/markdown-contexts",
-                "X-Title": "Context Management System"
-            }
-        
-        payload = {
-            "model": model,
-            "messages": [
-                {
-                    "role": "system",
-                    "content": "あなたは専門的なドキュメント整形アシスタントです。LLMの会話記録を構造化されたMarkdown形式に変換してください。"
-                },
-                {
-                    "role": "user",
-                    "content": prompt
-                }
-            ],
-            "max_tokens": 8000,
-            "temperature": 0.3,
-            "top_p": 0.9
-        }
-        
         try:
-            response = requests.post(api_url, headers=headers, json=payload, timeout=60)
-            response.raise_for_status()
-            
-            result = response.json()
-            
-            if "choices" in result and len(result["choices"]) > 0:
-                return result["choices"][0]["message"]["content"]
+            if primary:
+                # z.ai API（OpenAI互換）
+                print(f"  [DEBUG] Calling z.ai API with model: {model}")
+                client = OpenAI(
+                    base_url="https://open.bigmodel.cn/api/paas/v4",
+                    api_key=self.primary_api_key
+                )
+                response = client.chat.completions.create(
+                    model=model,
+                    messages=[{"role": "user", "content": prompt}],
+                    temperature=0.1,
+                    max_tokens=2000
+                )
+                return response.choices[0].message.content
             else:
-                return None
+                # OpenRouter API
+                print(f"  [DEBUG] Calling OpenRouter API with model: {model}")
+                client = OpenAI(
+                    base_url="https://openrouter.ai/api/v1",
+                    api_key=self.openrouter_api_key,
+                    default_headers={
+                        "HTTP-Referer": "https://github.com/luckys4900/markdown-contexts",
+                        "X-Title": "Context Management System"
+                    }
+                )
+                response = client.chat.completions.create(
+                    model=model,
+                    messages=[{"role": "user", "content": prompt}],
+                    temperature=0.3,
+                    max_tokens=2000
+                )
+                return response.choices[0].message.content
                 
-        except requests.exceptions.RequestException as e:
-            raise Exception(f"API request failed: {e}")
-        except json.JSONDecodeError as e:
-            raise Exception(f"JSON decode failed: {e}")
+        except Exception as e:
+            raise Exception(f"API call failed: {e}")
     
     def _create_prompt(self, content: str, title: str) -> str:
-        """LLMへのプロンプトを作成"""
+        """LLMへのプロンプトを作成（英語版）"""
         
-        prompt = f"""以下のLLM会話記録を、LLMが理解しやすい構造化されたMarkdown形式に変換してください。
+        prompt = f"""Convert the following LLM conversation to a structured Markdown format.
 
-# タイトル
+# Title
 {title}
 
-# 変換ルール
-1. **セクション構造**: 以下のセクションで構成すること
-   - 📊 ドキュメント情報（作成日時、対話数、トピック）
-   - 📋 実行要約（全体の要約、3〜5行）
-   - 🔑 重要ポイント（数字、スコア、価格、日付などの重要な情報、最大15個）
-   - ✅ アクションアイテム（推奨事項、アクション項目、最大10個）
-   - 💡 主な洞察（発見、結論、パターン、最大10個）
-   - 💬 会話内容（ユーザーとアシスタントの対話、構造化）
-   - 🔗 関連情報（トピック別の関連キーワード）
-   - 🔍 検索用キーワード（重要なキーワード、最大20個）
+# Conversion Rules
+1. **Section Structure**: Create the following sections:
+   - 📊 Document Information (creation time, conversation count, topics)
+   - 📋 Executive Summary (overall summary, 3-5 lines)
+   - 🔑 Key Points (numbers, scores, prices, dates, max 15 items)
+   - ✅ Action Items (recommendations, action items, max 10 items)
+   - 💡 Key Insights (findings, conclusions, patterns, max 10 items)
+   - 💬 Conversation Content (structured user and assistant messages)
+   - 🔗 Related Information (topic-related keywords)
+   - 🔍 Search Keywords (important keywords, max 20 items)
 
-2. **フォーマット**:
-   - 見出しは # ## ### を適切に使用
-   - 重要なポイントは箇条書き（- または 1.）
-   - アクションアイテムは ✅ マークを使用
-   - 洞察は 💡 マークを使用
-   - ユーザー発言は 👤 マーク
-   - アシスタント発言は 🤖 マーク
+2. **Formatting**:
+   - Use # ## ### for headings appropriately
+   - Use bullet points (- or 1.) for important points
+   - Use ✅ mark for action items
+   - Use 💡 mark for insights
+   - Use 👤 mark for user speech
+   - Use 🤖 mark for assistant speech
 
-3. **情報の抽出**:
-   - 数値情報（スコア、価格、日時）を明確に抽出
-   - 結論と推奨事項を強調
-   - リスクと機会を分類
-   - 時系列を維持
+3. **Information Extraction**:
+   - Clearly extract numeric information (scores, prices, dates)
+   - Emphasize conclusions and recommendations
+   - Categorize risks and opportunities
+   - Maintain chronological order
 
-4. **簡潔さ**:
-   - 長すぎる会話は要約
-   - 重複する情報は統合
-   - 本質的な情報に焦点を当てる
+4. **Conciseness**:
+   - Summarize long conversations
+   - Consolidate duplicate information
+   - Focus on essential information
 
-# 会話記録
+# Conversation Record
 {content}
 
-# 出力形式
-上記のルールに従って、構造化されたMarkdown形式で出力してください。YAMLフロントマターは含めないでください。"""
+# Output Format
+Convert to structured Markdown format following the rules above. Do not include YAML frontmatter.
+"""
         
         return prompt
     
