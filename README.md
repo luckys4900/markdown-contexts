@@ -11,6 +11,8 @@ context/
 ├── strategy/      # 戦略フレームワーク
 ├── memory/        # 学習・ノウハウ
 ├── reports/       # 定期レポート・サマリー
+├── dashboard/     # マルチエージェント可視化ダッシュボード
+├── logs/          # エージェントログ
 ├── AGENTS.md      # OpenCode用ルール
 └── README.md      # このファイル
 ```
@@ -80,3 +82,37 @@ A: YAMLフロントマターの `tags` 配列に追加してください
 
 **Q: 既存ファイルを再分類したい場合は？**
 A: `context_organizer.py` を再実行すると再評価されます
+
+## マルチエージェント可視化ダッシュボード
+
+### ローカルで起動
+```bash
+cd context/dashboard
+pip install -r requirements.txt
+streamlit run app.py
+```
+ブラウザで `http://localhost:8501` にアクセス
+
+### GitHub Pagesで閲覧
+- コードをGitHubにpushすると自動デプロイ
+- URL: `https://[username].github.io/[repo]/context/dashboard/`
+
+### ダッシュボード機能
+1. **Flow Visualization**: エージェント間の依存関係をツリー表示
+2. **Token Usage**: 各エージェントのトークン使用量を比較
+3. **Status Timeline**: リアルタイムのエージェント状態を表示
+4. **Logs**: 各エージェントの処理ログを閲覧
+
+### エージェントログ出力
+マルチエージェントで処理する際、各エージェントは以下の形式でログを出力：
+```json
+{
+  "agent_id": "master",
+  "agent_name": "Master Agent",
+  "status": "running",
+  "task": "Orchestrating tasks",
+  "message": "Task assigned to Research Agent",
+  "tokens_used": 150,
+  "timestamp": "2026-04-27T20:30:00"
+}
+```
