@@ -1,6 +1,6 @@
 ---
 title: "test_new_file"
-date: "2026-04-27T08:05:16.830Z"
+date: "2026-04-27T08:30:51.261Z"
 source: "C:\Users\ライズコーポレーション\Desktop\context\exports\test_new_file.txt"
 category: "crypto"
 ---
