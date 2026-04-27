@@ -1,13 +1,20 @@
 ---
-date: 2026-04-28
-category: analysis
-tags: [multi-agent, system-design, token-optimization, process]
-title: マルチエージェントシステム設計プロセス - 思考と分析の記録
-process_type: system_design_review
-reviewed_files: [AGENTS.md, README.md, memory/multi_agent_architecture.md]
-thinking_process: detailed
-token_usage: 0
+# メタ情報
+作成日: 2026-04-28
+カテゴリ: analysis
+タイトル: マルチエージェントシステム設計プロセス - 思考と分析の記録
+
+# タグ（ドメイン・重要度・トピック）
+タグ:
+  ドメイン: []
+  重要度: []
+  トピック: []
+
+# 自動生成情報
+生成元: opencode
+バージョン: 1.0
 ---
+
 
 # マルチエージェントシステム設計プロセス
 
