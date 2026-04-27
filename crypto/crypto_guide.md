@@ -1,6 +1,6 @@
 ---
 title: "crypto_guide"
-date: "2026-04-27T08:30:48.461Z"
+date: "2026-04-27T08:33:32.963Z"
 source: "C:\Users\ライズコーポレーション\Desktop\context\exports\crypto_guide.md"
 category: "crypto"
 ---
