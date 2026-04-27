@@ -3,13 +3,12 @@ import re
 import shutil
 from datetime import datetime
 from pathlib import Path
-import json
 from dotenv import load_dotenv
 
 # 環境変数のロード
 load_dotenv()
 
-CONTEXT_DIR = Path(__file__).parent
+CONTEXT_DIR = Path(__file__).parent.resolve()
 INBOX_DIR = CONTEXT_DIR / "受信トレイ"
 INBOX_DIR_ALT = CONTEXT_DIR / "inbox"  # 代替フォルダ
 CATEGORIES = {
@@ -590,6 +589,9 @@ def main():
             print(f"\n[Converting] {filepath.name}")
             result = process_txt_file(filepath)
             if result:
+                results.append(result)
+                if result['category'] in category_counts:
+                    category_counts[result['category']] += 1
                 print(f"  [OK] 変換完了: {result['original_filename']} -> {result['new_filename']}")
                 print(f"  [INFO] タイトル: {result['title']}")
                 print(f"  [INFO] トピック: {', '.join(result['topics'])}")

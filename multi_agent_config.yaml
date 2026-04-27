@@ -1,0 +1,297 @@
+# マルチエージェントシステム設定ファイル
+# トークン効率化と高速処理のための最適化設定
+
+version: "1.0"
+description: "マルチエージェントモデル割り当て設定"
+
+# モデルプロバイダー設定
+providers:
+  ollama:
+    base_url: "http://localhost:11434"
+    enabled: true
+    priority: 1  # 最優先（ローカル故に高速）
+    models:
+      - name: "qwen3:8b"
+        max_tokens: 8192
+        context_window: 32768
+        temperature: 0.3
+        timeout: 120
+        cost_per_token: 0.00000001  # ローカル故に低コスト
+
+      - name: "codegemma:7b"
+        max_tokens: 4096
+        context_window: 8192
+        temperature: 0.1
+        timeout: 180
+        cost_per_token: 0.00000001
+
+      - name: "llama3.2:1b"
+        max_tokens: 2048
+        context_window: 4096
+        temperature: 0.2
+        timeout: 60
+        cost_per_token: 0.000000005
+
+  openrouter:
+    base_url: "https://openrouter.ai/api/v1"
+    enabled: true
+    priority: 2  # セカンダリ（ネットワーク遅延あり）
+    api_key: "${OPENROUTER_API_KEY}"
+    models:
+      - name: "google/gemini-flash"
+        max_tokens: 8192
+        context_window: 1048576
+        temperature: 0.2
+        timeout: 90
+        cost_per_token: 0.00000015
+
+      - name: "meta/llama-3.2-1b"
+        max_tokens: 4096
+        context_window: 8192
+        temperature: 0.3
+        timeout: 60
+        cost_per_token: 0.00000008
+
+  z_ai:
+    enabled: true
+    priority: 3  # 高精度処理用（高コスト）
+    model: "z.ai coding plan"
+    max_tokens: 4096
+    temperature: 0.4
+    timeout: 150
+    cost_per_token: 0.00000025
+
+# エージェント定義
+agents:
+  master:
+    provider: "deepseek-v3.1:671b-cloud"  # 固定（制御用）
+    max_tokens: 3000
+    temperature: 0.1
+    timeout: 120
+    role: "タスク調整・結果統合・品質管理"
+    capabilities:
+      - task_decomposition
+      - result_integration
+      - quality_control
+      - error_handling
+
+  analysis_agent:
+    provider: "z_ai"
+    max_tokens: 2000
+    temperature: 0.3
+    timeout: 90
+    role: "データ分析・統計検証・パターン発見"
+    optimal_for:
+      - statistical_analysis
+      - pattern_recognition
+      - complex_reasoning
+    fallback: "ollama/qwen3:8b"
+
+  research_agent:
+    provider: "openrouter/google/gemini-flash"
+    max_tokens: 1500
+    temperature: 0.2
+    timeout: 60
+    role: "文献調査・情報収集・要約"
+    optimal_for:
+      - information_retrieval
+      - summarization
+      - quick_lookup
+    fallback: "openrouter/meta/llama-3.2-1b"
+
+  strategy_agent:
+    provider: "ollama/qwen3:8b"
+    max_tokens: 1800
+    temperature: 0.4
+    timeout: 120
+    role: "戦略立案・リスク評価・意思決定"
+    optimal_for:
+      - strategic_planning
+      - risk_assessment
+      - decision_making
+    fallback: "openrouter/google/gemini-flash"
+
+  backtest_agent:
+    provider: "ollama/codegemma:7b"
+    max_tokens: 2500
+    temperature: 0.1
+    timeout: 180
+    role: "バックテスト・シミュレーション・数値検証"
+    optimal_for:
+      - numerical_simulation
+      - backtesting
+      - quantitative_analysis
+    fallback: "ollama/qwen3:8b"
+
+  preprocess_agent:
+    provider: "openrouter/meta/llama-3.2-1b"
+    max_tokens: 800
+    temperature: 0.2
+    timeout: 30
+    role: "データ整形・前処理・フィルタリング"
+    optimal_for:
+      - data_cleaning
+      - preprocessing
+      - filtering
+    fallback: "ollama/llama3.2:1b"
+
+  summary_agent:
+    provider: "openrouter/google/gemini-flash"
+    max_tokens: 1000
+    temperature: 0.1
+    timeout: 45
+    role: "結果要約・レポート生成"
+    optimal_for:
+      - summarization
+      - report_generation
+      - conclusion_extraction
+    fallback: "openrouter/meta/llama-3.2-1b"
+
+  validation_agent:
+    provider: "ollama/qwen3:8b"
+    max_tokens: 1200
+    temperature: 0.3
+    timeout: 75
+    role: "結果検証・矛盾チェック・品質保証"
+    optimal_for:
+      - validation
+      - consistency_checking
+      - quality_assurance
+    fallback: "openrouter/google/gemini-flash"
+
+# トークン予算管理
+token_budget:
+  total_max_tokens: 10000
+  allocation_strategy: "dynamic_importance_based"
+
+  default_allocations:
+    master: 3000
+    analysis: 2000
+    research: 1500
+    strategy: 1800
+    backtest: 2500
+    preprocess: 800
+    summary: 1000
+    validation: 1200
+
+  importance_weights:
+    critical: 0.4
+    high: 0.3
+    medium: 0.2
+    low: 0.1
+
+  min_guaranteed_tokens:
+    critical: 2000
+    high: 1500
+    medium: 1000
+    low: 500
+
+# 並列処理設定
+parallel_processing:
+  max_concurrent_agents: 4
+  timeout_multiplier: 1.5
+  retry_attempts: 3
+  retry_delay: 5
+
+  # タスク優先度設定
+  task_priority:
+    - critical: ["backtesting", "validation"]
+    - high: ["analysis", "strategy"]
+    - medium: ["research", "summary"]
+    - low: ["preprocessing"]
+
+# フォールバック戦略
+fallback_strategy:
+  enabled: true
+  max_fallback_depth: 2
+  timeout_threshold: 30  # 秒
+  error_rate_threshold: 0.1  # 10%
+
+  fallback_chains:
+    z_ai: ["openrouter/google/gemini-flash", "ollama/qwen3:8b"]
+    "openrouter/google/gemini-flash": ["ollama/qwen3:8b", "openrouter/meta/llama-3.2-1b"]
+    "ollama/qwen3:8b": ["ollama/codegemma:7b", "openrouter/meta/llama-3.2-1b"]
+    "ollama/codegemma:7b": ["ollama/llama3.2:1b"]
+
+# 監視とロギング
+monitoring:
+  enabled: true
+  log_level: "INFO"
+  metrics_interval: 30  # 秒
+
+  metrics_to_track:
+    - token_usage
+    - response_time
+    - error_rate
+    - cost_per_task
+    - success_rate
+
+  alert_thresholds:
+    high_token_usage: 8000  # トークン
+    slow_response: 60  # 秒
+    high_error_rate: 0.2  # 20%
+    high_cost: 0.0005  # ドル/タスク
+
+# 品質保証
+quality_assurance:
+  multi_agent_validation: true
+  validation_required_for:
+    - analysis
+    - strategy
+    - backtesting
+
+  validation_strictness:
+    critical: 0.9  # 90%一致必要
+    high: 0.8
+    medium: 0.7
+    low: 0.6
+
+# キャッシュ設定
+caching:
+  enabled: true
+  ttl: 3600  # 1時間
+  max_size: 1000  # エントリ数
+
+  cacheable_tasks:
+    - metadata_search
+    - preprocessing
+    - simple_queries
+
+# 環境最適化
+environment:
+  # Ollama最適化
+  ollama_optimization:
+    num_gpu_layers: 20
+    num_threads: 8
+    batch_size: 512
+
+  # ネットワーク最適化
+  network_optimization:
+    connection_timeout: 10
+    read_timeout: 30
+    retry_connections: 3
+
+  # メモリ管理
+  memory_management:
+    max_memory_usage: 0.8  # 80%
+    cleanup_interval: 300  # 5分
+    cache_eviction_strategy: "LRU"
+
+# デバッグと開発
+debug:
+  enabled: false
+  verbose_logging: false
+  dry_run: false
+
+  development_features:
+    hot_reload: true
+    config_validation: true
+    performance_profiling: false
+
+---
+
+# 使用方法
+# 1. 環境変数を設定: export OPENROUTER_API_KEY=your_key
+# 2. Ollamaモデルをプリロード: ollama pull qwen3:8b codegemma:7b
+# 3. 設定を読み込み: python -c "import yaml; config = yaml.safe_load(open('multi_agent_config.yaml'))"
+# 4. エージェントシステム起動: python multi_agent_orchestrator.py

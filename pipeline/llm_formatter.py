@@ -64,8 +64,25 @@ class LLMFormatter:
     def _call_llm(self, content: str, title: str, model: str, primary: bool) -> Optional[str]:
         """LLMを呼び出す"""
         
-        # プロンプトの作成
-        prompt = self._create_prompt(content, title)
+        # プロンプトを非常にシンプルに
+        prompt = f"""Convert this conversation to structured Markdown with these sections:
+
+1. Document Info (creation time, count, topics)
+2. Executive Summary (3-5 lines)
+3. Key Points (max 15)
+4. Action Items (max 10)
+5. Key Insights (max 10)
+6. Conversation Content
+7. Related Info
+8. Search Keywords (max 20)
+
+Title: {title}
+
+Conversation:
+{content}
+
+Return only Markdown content. No YAML frontmatter.
+"""
         
         try:
             if primary:
@@ -73,7 +90,9 @@ class LLMFormatter:
                 print(f"  [DEBUG] Calling z.ai API with model: {model}")
                 client = OpenAI(
                     base_url="https://open.bigmodel.cn/api/paas/v4",
-                    api_key=self.primary_api_key
+                    api_key=self.primary_api_key,
+                    timeout=60.0,
+                    max_retries=2
                 )
                 response = client.chat.completions.create(
                     model=model,
@@ -91,7 +110,9 @@ class LLMFormatter:
                     default_headers={
                         "HTTP-Referer": "https://github.com/luckys4900/markdown-contexts",
                         "X-Title": "Context Management System"
-                    }
+                    },
+                    timeout=60.0,
+                    max_retries=2
                 )
                 response = client.chat.completions.create(
                     model=model,
