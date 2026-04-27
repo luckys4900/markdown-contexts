@@ -1,6 +1,6 @@
 ---
 title: "python_script"
-date: "2026-04-27T08:05:15.211Z"
+date: "2026-04-27T08:30:49.488Z"
 source: "C:\Users\ライズコーポレーション\Desktop\context\exports\python_script.md"
 category: "script"
 ---
