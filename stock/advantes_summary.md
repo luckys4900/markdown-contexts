@@ -1,6 +1,6 @@
 ---
 title: "advantes_summary"
-date: "2026-04-27T08:30:47.705Z"
+date: "2026-04-27T08:33:26.890Z"
 source: "C:\Users\ライズコーポレーション\Desktop\context\exports\advantes_summary.md"
 category: "stock"
 ---
