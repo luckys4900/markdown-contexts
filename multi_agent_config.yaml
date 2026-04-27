@@ -32,6 +32,14 @@ providers:
         timeout: 60
         cost_per_token: 0.000000005
 
+      - name: "gemma4"
+        max_tokens: 32768
+        context_window: 131072
+        temperature: 0.3
+        timeout: 150
+        cost_per_token: 0.00000001
+        capabilities: ["multimodal", "vision", "audio", "tools", "thinking"]
+
   openrouter:
     base_url: "https://openrouter.ai/api/v1"
     enabled: true
