@@ -1,14 +1,20 @@
 ---
-date: 2026-04-28
-category: analysis
-tags: [model-assignment, openrouter, ollama, cost-analysis, performance]
-title: モデル割り当ての合理性分析 - OpenRouterフリーミアム vs 現行設定
-process_type: cost_performance_analysis
-analysis_method: comparative_evaluation
-data_source: model_specifications, performance_tests
-token_usage: 0
-comparison_target: openrouter_free_vs_current
+# メタ情報
+作成日: 2026-04-28
+カテゴリ: analysis
+タイトル: モデル割り当ての合理性分析 - OpenRouterフリーミアム vs 現行設定
+
+# タグ（ドメイン・重要度・トピック）
+タグ:
+  ドメイン: []
+  重要度: []
+  トピック: []
+
+# 自動生成情報
+生成元: opencode
+バージョン: 1.0
 ---
+
 
 # モデル割り当て合理性分析
 
