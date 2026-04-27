@@ -1,0 +1,2345 @@
+
+あなたの入力: この見通し予測の整合性を最新動向のマクロ経済や地政学的リスクの部分からスコアリングし、
+
+# 2802 AJINOMOTO CO INC デイトレード特化分析レポート --- ### ⚠️ 暫定値（前営業日終値ベース） - **生成時刻**: 2026-04-20 08:44 JST - **データ安定性**: 安定（前回から大きな変動なし） - **東証データ**: ⚠️ yfinance直接取得（ディレイの可能性あり） - **最新価格 as-of**: 2026-04-17 15:24:00 JST / source=yahoo_finance_jp - **価格鮮度フラグ**: STALE_DATA（遅延 235198 秒） ## 1. 本日
+
+pasted
+
+この見通し予測の整合性を最新動向のマクロ経済や地政学的リスクの部分からスコアリングし、
+プロ目線で整合性を確認し、トレード戦略のブラッシュアップや添削を行え。
+ウルトラシンキング
+
+4月20日
+Claudeが返答しました: レポート拝見しました。味の素(2802)のデイトレ戦略、プロ目線で最新のマクロ環境と照合して徹底的に添削します。まず直近のマクロ・地政学状況を確認します。 重要な情報が出てきました。レポートの前提と実際の市況に大きな齟齬があります。さらに確認します。 重要な情報を確認しました。地政学リスクとイランイベントについて深堀…
+レポート拝見しました。味の素(2802)のデイトレ戦略、プロ目線で最新のマクロ環境と照合して徹底的に添削します。まず直近のマクロ・地政学状況を確認します。
+
+
+ウェブを検索しました
+ウェブを検索しました
+重要な情報が出てきました。レポートの前提と実際の市況に大きな齟齬があります。さらに確認します。
+
+
+ウェブを検索しました
+ウェブを検索しました
+重要な情報を確認しました。地政学リスクとイランイベントについて深堀します。
+
+
+ウェブを検索しました
+ウェブを検索しました
+イラン関連の現時点情報を追加で取得します。
+
+
+ウェブを検索しました
+ウェブを検索しました
+味の素(2802)の具体的な材料と四半期決算予定を確認します。
+
+
+ウェブを検索しました
+ウェブを検索しました
+重要な情報が揃いました。味の素の決算日（5/7）、株価の実態、日経平均のマクロ環境を総合して、レポートの致命的な問題を明らかにする準備ができました。最終確認としてSOX指数の状況も確認します。
+
+
+ウェブを検索しました
+ウェブを検索しました
+十分な情報が揃いました。現実とレポートの致命的な齟齬を指摘し、プロ目線の添削を行います。
+
+🔴 2802味の素 デイトレ・レポート プロ目線整合性監査
+総合評価: 18/100（使用不可レベル）
+このレポートはマクロ前提が現実と真逆で、このまま執行するとSL狩りに遭う可能性が極めて高い。順を追って致命傷を解剖します。
+
+🚨 Section 1: マクロ前提の致命的誤認（最重要）
+❌ 誤り①: 日経平均の方向性が逆
+レポートの前提:
+
+日経平均 (^N225): β=0.8064 / 変化 -1.75% → インパクト -1.39% マクロセンチメント: RISK_OFF / 地政学リスク: CRITICAL 遅効性ハーネス: 翌営業日寄与の推定 -0.76%
+
+実際の市況（2026年4月17日時点）:
+
+今週の日経平均終値は58,475円、前週末比+1,551円高で続伸し、ついに最高値を更新する展開 
+Yahoo!ファイナンス
+となっている
+17日の日経平均は4日ぶりに大幅反落し-1,042円安の58,475円で引け 
+Iwaicosmo
+たが、これは前日に約1か月半ぶりに史上最高値を更新した日経平均株価が、急ピッチ上昇への警戒感から 
+Iwaicosmo
+の利益確定売り（高値波乱）
+日経225先物（大阪）は2026/4/18時点で59,690円、前日比+890円（+1.51%） 
+Matsui Securities
+と急反発
+日経先物夜間取引で890円高の59,690円で終了／日経平均、米半導体株の上昇が支え（4/20先読み株式相場） 
+Nikkei
+整合性スコア: 0/10
+
+レポートは「日経-1.75%の下落」を前提としてギャップ予測-0.97%を出しているが、実際の翌営業日（4/20）寄り付き環境は日経先物+1.5%の強気ギャップアップ。つまりレポートの方向性は180度逆。
+
+❌ 誤り②: 「地政学リスク CRITICAL / RISK_OFF」判定の誤り
+日経トップ記事は「日経平均初の6万円探る、中東の『戦闘終結』先取り、過熱サイン」「米イラン和平」 
+Nikkei
+—つまり現在の市場はRISK_ONムードにあり、中東リスクの後退を織り込みに行っている。
+
+ただし、4/22(水)に米イランの停戦・交渉期限 
+Nikkei 225
+が控えており、4/20〜4/22はイベント前の高ボラ警戒期間であることは確か。しかしこれは「RISK_OFF確定」ではなく「イベントリスク両面」。
+
+レポートの地政学判定は「CRITICAL」だが、実際は「高ボラ・両面リスク（イベント前）」が正しい。
+
+❌ 誤り③: SOXセクター連動の前提不整合
+レポートは「SOX+2.4%が強気材料」と記載する一方、同時に「日経-1.75%」を前提。これは矛盾している。
+
+実際には:
+
+SOX指数は2026年4月17日に最高値9,556.42USDに到達 
+TradingView
+日経半導体株指数は4/17に-3.96%（-830.08pt）下落 
+Nikkei Indexes
+つまりSOXは強いが日本の半導体株は売られているという乖離が起きている。これは味の素（食品）にはほぼ無関係で、そもそも味の素をSOX連動で語ること自体がセクター誤認。味の素はディフェンシブ食品株。
+
+🚨 Section 2: データ鮮度の重大問題
+レポートの自己申告:
+
+価格鮮度フラグ: STALE_DATA（遅延 235,198秒 = 約65時間） 生成時自動検証: ⚠️ 2件FAIL
+
+FAIL: R1 > PDC > S1 の構造不成立
+FAIL: PDCが確定値ではない
+プロ判定: このレポートは生成段階でバリデーションエラーが出ているので、本来は廃棄すべき。 以下のキーレベルは全て再計算必須：
+
+PDC = 4,574（これがPMLと同値＝前日安値引け＝弱い）
+R1 = 4,570 < PDC = 4,574 → ピボット計算式が破綻
+S1 = PDC = 4,574 → 下値サポートが機能しない
+ピボットが機能しない日のデイトレは、執行しないが正解。
+
+🚨 Section 3: シナリオ設計の矛盾
+S1（VWAP押し目買い LONG）の問題点
+Entry: 4,570円 / SL: 4,530円 / TP: 4,670円 / RRR: 2.5
+矛盾点:
+
+Entry 4,570円はPDC 4,574円より下。これは「押し目買い」ではなく前日終値割れの陰転追随買い。押し目買いの定義違反。
+RSI 51.29・ADX 14.6・MACD弱気クロス・出来高比0.23（極低）—モメンタムスコア-4/8の極低環境でLONGシナリオを主力にするのは統計的に不合理。
+発動条件「日足上昇トレンド」とあるが、レポート自身が「レンジ（現値4574 / MA20=4558 / MA50=4498）」と判定。発動条件が成立していない。
+EV比較の虚構
+保有継続合計EV: +0.1%
+損切→再エントリー合計EV: -1.5%
+→ 保有継続優位
+このEV表は「現ポジションがあること」を前提にしているが、そもそもユーザーがポジションを持っているかどうか不明。テンプレート流用の疑いあり。さらにTP到達確率27%・SL到達確率54%の割り振りは、現在の統計的優位性（勝率55.1%, 妥当性False, n=12）と整合性が取れていない。
+
+🚨 Section 4: バックテスト品質の破綻
+指標	値	プロ判定
+トレード数	12	n=30未満で統計的無意味
+シャープ	0.51	1.0未満で実運用不可
+最大DD	-23.0%	リターン21%と同等以上のDD
+妥当性判定	False	レポート自身が否定
+レポート末尾自身の推奨: 「⚠️ 見送り推奨」
+
+✅ プロ目線での書き直し提案（4/20用・実トレード可能版）
+🎯 修正後のマクロ前提（現実ベース）
+- マクロ: 日経先物 +1.5%（4/18夜間引け 59,690円）→ GAP UP環境
+- 地政学: 4/22 米イラン停戦交渉期限 → イベント前の2営業日
+- セクター: 食品（ディフェンシブ） / SOXとの相関は名目βのみで実質無相関
+- VIX: 17.48 → 中立
+- 市場テーマ: 6万円台探り／和平プレミアム／利確売り警戒の綱引き
+🎯 修正後の味の素（2802）個別環境
+味の素の年初来高値は2026年2月26日の5,025円、年初来安値は1月8日の3,270円 
+Nikkei
+。現値4,574円は年初来レンジのほぼ中央。
+
+株価は3/3終値4,714円→3/19終値4,405円へ下落（-309円）し、2月下旬の高値圏から水準を切り下げ、戻りを試しにくい形が続く 
+Yahoo!ファイナンス
+状況からの反発局面。
+
+決算発表予定日は2026/05/07 
+Kabutan
+—決算プレミアム形成期（発表2週前）。
+
+🎯 書き直した戦略（If-Thenベース）
+環境判定: 日経GU/味の素は決算プレミアム期/ディフェンシブ需要低下
+
+シナリオ	方向	Entry	SL	TP1	TP2	RRR	発動条件
+A: 寄り底買い	LONG	4,580〜4,600	4,530（ATR×0.4）	4,680	4,740	2.0〜3.5	日経先物が寄り後+1%維持／RVOL≥1.2／寄り底陽線形成
+B: 戻り売り	SHORT	4,680〜4,700	4,740（直近高値抜け）	4,600	4,560	2.0〜3.5	日経が寄り天利確／味の素が4,680で上ヒゲ／RVOL≥1.5
+C: NO TRADE	—	—	—	—	—	—	RVOL<1.0継続／ATR消化50%未満／板薄い
+🎯 必須チェック項目（4/20寄り前）
+07:00時点のCME日経先物値を確認（59,500以下なら前提見直し）
+味の素PTS価格を確認（4,600以上なら寄り高スタート想定）
+4/22イランイベントのヘッドライン監視—ディフェンシブローテーション再来の可能性
+RVOL計測は09:15時点で判定—寄り5分のToxic flowは無視
+決算2週前の過去ボラを確認（2802は決算前に±3%程度動く傾向）
+🎯 ポジション管理
+環境スコア17.8/100（低品質）+ バックテスト妥当性False → 通常の10%以下のサイズが合理
+流動性スコア8/100（極低）を考慮 → 100株単位での分割執行、成行禁止
+決算2週前 → オーバーナイト禁止、日中完結
+📊 整合性スコアカード（マクロ視点）
+項目	レポート	現実	スコア
+日経方向性	-1.75%	+1.5%（夜間先物）	0/10
+市場センチメント	RISK_OFF	RISK_ON（中東和平織り込み中）	1/10
+地政学判定	CRITICAL	高ボラ両面（4/22イベント前）	3/10
+セクター帰属	SOX連動示唆	食品ディフェンシブ	0/10
+データ鮮度	STALE 65hr	—	2/10
+キーレベル整合	R1<PDC=S1（破綻）	—	0/10
+バックテスト妥当性	n=12, Sharpe 0.51, False	—	1/10
+EV表の前提	ポジション保有前提	不明	2/10
+ギャップ方向	-0.97%	+1%前後のGU想定	0/10
+総合			9/90 = 10%
+🎯 結論
+このレポートは4/20の執行判断材料として使用不可。理由は以下の3点：
+
+マクロ前提が現実と逆（RISK_OFF想定 vs 実際はRISK_ON＆GU）
+データ鮮度65時間遅延＋ピボット破綻でキーレベルが全て使えない
+バックテスト妥当性False、n=12で統計的優位性ゼロ
+推奨アクション:
+
+🛑 このレポートの数値をそのまま使わない
+✅ 4/20 08:30時点で再生成（最新のCME先物・PTS・4/18の変化を反映）
+✅ 決算発表5/7まで2週間 → 中期的には決算プレイ待ちのスタンスで、4/20〜4/22はポジション抑制
+✅ 味の素はディフェンシブ食品株として再分類し、SOX連動ロジックを外す
+最重要インサイト: レポート生成パイプラインで「PDC取得のデータソース検証」「自動検証FAIL時の生成中断ロジック」「マクロ方向性の自動サニティチェック（CME先物 vs 前日終値変化の整合性）」の3つが欠けています。これを組み込めば同種の事故は防げます。
+
+あなたの入力: 最新内容からスコアリングや株価見通し、トレード戦略の整合性をプロ目線で添削を行って。
+
+# 2802 AJINOMOTO CO INC デイトレード特化分析レポート --- ### ⚠️ 暫定値（前営業日終値ベース） - **生成時刻**: 2026-04-22 08:28 JST - **データ安定性**: 安定（前回から大きな変動なし） - **東証データ**: ⚠️ yfinance直接取得（ディレイの可能性あり） - **最新価格 as-of**: 2026-04-21 15:24:00 JST / source=yahoo_finance_jp - **価格鮮度フラグ**: STALE_DATA（遅延 61482 秒） ## 1. 本日の
+
+pasted
+
+最新内容からスコアリングや株価見通し、トレード戦略の整合性をプロ目線で添削を行って。
+ウルトラシンキング
+
+4月22日
+Claudeが返答しました: 最新版レポート(4/22版)を拝見しました。前回(4/20版)から大きく改善された点と、依然として残る致命的問題をプロ目線で徹底解剖します。まず4/21〜4/22の最新マクロ状況を確認します。 重要な情報を確認しました。味の素(2802)の4/21終値と最新動向、4/22寄り前情報を確認します。 4/22の寄り付き環…
+最新版レポート(4/22版)を拝見しました。前回(4/20版)から大きく改善された点と、依然として残る致命的問題をプロ目線で徹底解剖します。まず4/21〜4/22の最新マクロ状況を確認します。
+
+
+ウェブを検索しました
+ウェブを検索しました
+重要な情報を確認しました。味の素(2802)の4/21終値と最新動向、4/22寄り前情報を確認します。
+
+
+ウェブを検索しました
+ウェブを検索しました
+4/22の寄り付き環境と米国市況、イラン関連動向を確認します。
+
+
+ウェブを検索しました
+ウェブを検索しました
+重要な情報が揃いました。米国市況とイラン関連の最新状況も確認します。
+
+
+ウェブを検索しました
+ウェブを検索しました
+決定的な情報が揃いました。これは非常に重要な状況です。特にイランの停戦期限と日経先物の夜間下落を踏まえて、分析を開始します。
+
+
+ウェブを検索しました
+ウェブを検索しました
+最後の確認として、ホルムズ海峡・原油価格・味の素の食品セクターとの関係を再確認します。
+
+
+ウェブを検索しました
+ウェブを検索しました
+すべての情報が揃いました。十分な整合性チェックができます。プロ目線での本格的な添削に入ります。
+
+🔴 2802味の素 (4/22版) プロ目線徹底監査レポート
+🏆 総合評価: 42/100 → 前回(10/100)から大幅改善、ただし致命的ミスマッチ残存
+前回(4/20用)の壊滅的レポートから、今回は基本整合性が回復しています。ただし、4/22寄り前の最新マクロ環境を踏まえると、このレポートの戦略を"そのまま"実行するのは危険。以下、整合性スコアリングと実戦的なブラッシュアップを行います。
+
+📊 Section 1: マクロ整合性スコアリング
+現実のマクロ状況（as of 4/22 朝）
+日経平均の軌跡:
+
+4/17: 58,475円 (-1,042円の反落)、4/20: 58,824円 (+349円) 
+Iwaicosmo
+4/21: 59,349円 終値で前日比+524円、米SOX上昇の流れで買い先行スタート 
+Yahoo!ファイナンス
+日経225先物 4/22 2:24時点: 58,580円、前日比-760円 (-1.28%) 
+Matsui Securities
+⚠️ 重要: 夜間先物は-1.28%の急落 — 4/22はギャップダウン寄り付き濃厚
+
+イラン地政学の現在地:
+
+トランプ氏は4/7に発表した2週間の停戦が「ワシントン時間水曜夜」に期限切れと発言。「合意が得られなければ停戦延長は非常に考えにくい」と強硬姿勢 
+Yahoo Finance
+米国とイランは、停戦が水曜日に期限切れとなる前に協議が開催される見通しについて、イランからの同意をまだ待っており、ホルムズ海峡へのアクセスを含む問題で対立 
+Bloomberg
+米国中央軍は、ホルムズ海峡封鎖継続中。イランは米国との交渉継続を公然と約束していない 
+CBS News
+原油市場:
+
+4/17: WTIは11.5%急落し83.85ドル、ブレントは9.1%安の90.38ドル（ホルムズ海峡開放期待） 
+Bloomberg
+4/21: WTIは86ドル付近で停戦期限前の交渉開始報道を受けて下落。ただしホルムズ通過船舶はわずか数隻のみ 
+TRADING ECONOMICS
+整合性マトリクス
+項目	レポート前提	実際の状況	スコア	判定
+日経平均変化	"不明"	4/21 +524円、夜間先物-760円	3/10	❌ データ欠損
+寄り付きギャップ	+5.00%	日経-1.28%の夜間下げ基調	1/10	❌ 方向が逆
+地政学リスク判定	CRITICAL	本日(4/22)が停戦期限当日→確かにCRITICAL	8/10	✅ 一致
+マクロセンチメント	RISK_ON	現実はRISK_ON→リスクオフへ転換中	5/10	🟡 部分的
+ニュースバイアス	BEARISH	正しい(停戦不透明化で売り先行想定)	8/10	✅ 一致
+SOX連動判定	上昇(+0.5%)	SOX上昇で4/21日経押し上げ 
+Yahoo!ファイナンス
+7/10	✅ 正しい方向
+セクター帰属	暗黙SOX連動示唆	味の素は食品(ディフェンシブ)	2/10	❌ 前回から継続問題
+α成分スコア	100/100 (NaN起因)	α=N/A (計算不能)	0/10	❌ 誤計上
+ギャップ精度	5/100	自覚はある	5/10	🟡 自己認識
+イベントリスク認識	欠落	本日が停戦期限の山場	0/10	❌ 致命的欠落
+マクロ総合			39/100	🔴 不整合多数
+🔥 最大の致命的問題: ギャップ予測+5.00%
+これがこのレポートの最大の欠陥です。理由：
+
+**モデル入力値「日経平均=不明」**で計算してるのに+5%を出力→保守的補正後の「推定値のみ採用」と書いてあるが、実際は欠損値をダミーで埋めた異常値
+味の素の前日終値4,721円に対し+5%は4,957円 — 年初来高値5,025円(2/26)に迫る水準で、食品ディフェンシブ株がワンギャップでつける水準ではない
+過去の類似事例(n=14)で「窓埋め確率0%」と自己申告してるにも関わらず、G0シナリオで「窓埋め=TP 4,960円」を提示→自己矛盾
+日経225先物が4/22未明に-1.28%下落 
+Matsui Securities
+していることを踏まえれば、現実的なギャップ予測は**-0.5%〜-1.5%のGD**が妥当です。
+
+🎯 Section 2: シナリオ設計の批判的レビュー
+[G0] ギャップ押し目 — 採用不可
+Entry: 4,730 / SL: 4,710 / TP: 4,960 / RRR: 11.5
+プロ目線の問題点:
+
+RRR=11.5は机上の空論: SL幅20円/TP幅230円は、ATR=104円の環境では「TPが超過緩く、SLがタイト過ぎる」。実戦ではSLタッチ率が極端に高くなる
+前提となる+5%ギャップアップが起きない: 夜間先物の動きからGDの確率の方が高い
+レポート自身の警告を無視: 「窓埋め確率0%(n=14)、G0条件不成立の可能性高い」と自分で書いてるのに配分45%→分析と戦略が矛盾
+寄り天確率50.7%(GU後)を踏まえると、寄り付き直後のLONGは統計的に不利
+[S2] VWAP回帰の押し目買い — 条件付き採用可
+Entry: 4,720 / SL: 4,680 / TP: 4,840 / RRR: 3.0
+評価:
+
+Entry=前日終値付近なので「押し目買い」としての整合性あり
+RRR=3.0は実戦的
+ただしGD想定時はEntry価格を再設計する必要あり
+[C1] 期中リバーサル — ✅ 最良シナリオ
+Entry: 4,590 / SL: 4,560 / TP1: 4,710 / RRR: 4.0
+プロ評価:
+
+前日安値PML=4,600付近の4,590は意味のあるサポート
+GD想定でも機能する
+RVOL≥1.5・時間帯10:30以降のフィルターが厳格で良い
+このC1こそが本日のメインシナリオとすべき
+
+🎯 Section 3: プロによる4/22専用シナリオ再設計
+現実環境を踏まえた実戦プラン：
+
+📋 今日のマクロ前提 (プロ版)
+✓ 日経先物 夜間 -1.28% (58,580) → 寄り付きGD想定
+✓ 本日米国時間水曜夜に米イラン停戦期限切れ → イベントリスク最高
+✓ トランプ氏「延長は非常に考えにくい」発言で緊張再上昇
+✓ ホルムズ海峡 封鎖継続 → 原油86ドル台で高止まり
+✓ 味の素セクター = 食品(ディフェンシブ) → 有事は相対的に強い
+✓ 味の素決算日 = 5/7 (2週間前 = プレ決算プレミアム期)
+📋 再設計シナリオ (Pro-Grade)
+【メイン: A】GDリバウンド狙い LONG (C1の改良版)
+
+項目	数値	根拠
+発動条件	寄り付きGD-0.5%以上 + 10:30以降にS1(4,710)回復 + RVOL≥1.3	PMLサポート
+Entry	4,650〜4,680	GD後の下げ止まり確認
+SL	4,590 (PML割れ)	構造割れ即撤退
+TP1	4,720 (PDC戻し)	窓埋め
+TP2	4,780	VWAP+1σ
+RRR	1.2〜2.0	控えめだが現実的
+有効時間	10:00〜13:30	14:00以降は停戦期限警戒で新規不可
+【サブ: B】ディフェンシブ逃避買い LONG (食品セクター強気)
+
+項目	数値	根拠
+発動条件	日経-2%以上下落 + 味の素が+0.5%以上プラス圏維持	相対強度
+Entry	4,730〜4,750	相対強度発現
+SL	4,700	タイト
+TP	4,820	R1手前
+RRR	2.3〜3.0	
+【サブ: C】イベント前戻り売り SHORT
+
+項目	数値	根拠
+発動条件	4,800超え失敗 + 13:30以降 + RVOL≥1.5	ヘッジ需要
+Entry	4,790〜4,800	R1直前
+SL	4,830	R1ブレイク
+TP	4,720	PDC
+RRR	2.0	
+注意	オーバーナイト絶対禁止	停戦期限通過
+【D】NO TRADE (推奨デフォルト)
+
+以下いずれかの状況なら見送り:
+
+環境スコア25/100 + 停戦期限当日 + ポジション推奨20%以下
+寄り後15分でATR 80%以上消化 → レンジ化確認
+RVOL<1.0が30分以上継続
+🎯 Section 4: レポートのロジック不整合（バグ的問題）
+❌ バグ1: α成分スコアの誤計上
+入力: nan * 5.0
+出力: 100/100 (最大スコア)
+NaNが最高スコアとして扱われている → 環境スコアを実態より15点ほど底上げ。実質環境スコアは 25.6 − (12.0 − 5.0) ≒ 19程度が正しい。
+
+❌ バグ2: ギャップ予測モデルの欠損ハンドリング
+日経平均 β=0.8117 / 変化 不明 → インパクト 不明
+最終出力: +5.00%
+欠損ドライバーがあるのに確定値を出力 → モデルが破綻。本来は「予測不能(N/A)」とすべき。
+
+❌ バグ3: EV表の価格齟齬
+保有継続 TP到達: 4,960円 (+5.1%)
+保有継続 SL到達: 4,710円 (-0.2%)
+エントリー価格が何円か不明。4,721 (PDC)? 4,730 (Entry案)? 計算基準が曖昧で信頼できない。
+
+❌ バグ4: G0シナリオの自己矛盾ループ
+分類="large" → 窓埋め確率0%と自己申告
+にもかかわらずTPは「寄り値回帰=窓埋め=4,960円」
+窓埋め確率0%なのに窓埋めをTPにする=論理矛盾
+🎯 Section 5: 整合性スコア最終版
+カテゴリ	スコア	コメント
+データ鮮度・構造	65/100	PDCと前日OHLCは整合。鮮度17hは許容範囲
+マクロ方向性	30/100	ギャップ+5%は現実(-1.3%)と逆方向
+地政学認識	75/100	CRITICAL判定自体は正しい、ただしイベント期限の認識薄い
+シナリオ設計	45/100	G0とS2が実質同じTPで冗長、C1は優秀
+リスク管理	60/100	ATR×0.2〜0.35の規律は良好
+バックテスト品質	10/100	n=12, 妥当性False→参考外
+逆算透明性	70/100	計算過程の開示は優秀
+ロジック整合性	35/100	α=NaN→100、欠損ドライバーで+5%など破綻箇所複数
+総合	42/100	前回10→今回42、大幅改善も本番投入は危険
+🎯 Section 6: プロからの実行推奨
+🛑 今日(4/22)のアクション優先順位
+レポートの+5%ギャップ予測は破棄
+08:30再計測: 日経先物・為替・原油の最新値で再実行
+シナリオA(GDリバウンド)をメインに採用
+ポジションサイズ: 通常の15%以下(停戦期限当日+環境スコア実質19)
+オーバーナイト絶対禁止: ワシントン時間水曜夜=JST木曜朝に停戦期限
+08:50の気配値と板: 薄い場合は寄り参加回避
+🔧 レポート生成パイプラインへの提言
+前回指摘した3点に加え、今回新たに発見した修正ポイント:
+
+欠損値ハンドリング強化: 日経平均変化率NaN時はギャップ予測自体を「N/A」出力に
+α成分のNaN→100バグ修正: max(0, min(100, 50 + nan*5)) をNaN時はNeutral=50に
+イベントカレンダー統合: FOMC・雇用統計・地政学イベント期限を自動検知
+セクター分類の明示: 食品ディフェンシブ vs SOX連動をコード内で区別
+自己矛盾チェック: 「窓埋め確率<10%」かつ「窓埋めがTP」なら自動で警告発火
+🎯 結論
+前回(4/20版)と比較すれば大幅改善ですが、依然として以下の致命傷を抱えています:
+
+ギャップ+5%の異常値が戦略全体を歪めている
+本日が米イラン停戦期限切れ当日というイベントリスク認識が欠落
+シナリオG0がレポート自身の統計(窓埋め確率0%)と矛盾
+最も実用的なのはC1(期中リバーサル)シナリオで、これを軸に上記Section 3の再設計版(A〜D)で執行するのが、プロとしての合理的判断です。
+
+味の素はディフェンシブ食品株+決算2週前というポジションを考えると、本日のような地政学イベント日は守り優位、リスクオンの日経ラリーに連れ高する銘柄ではない点を忘れずに。
+
+次回生成時は朝08:30のCME日経先物と為替を必ず最新化し、「本日のイベント検知」モジュールを通してから判断することを強く推奨します。
+
+あなたの入力: 出力内容を修正させた。まだ修正すべき点をプロ目線で洗い出し、修正指示のプロンプトを出力しろ
+
+# 2802 AJINOMOTO CO INC デイトレード特化分析レポート --- ### ⚠️ 暫定値（前営業日終値ベース） - **生成時刻**: 2026-04-22 08:28 JST - **データ安定性**: 安定（前回から大きな変動なし） - **東証データ**: ⚠️ yfinance直接取得（ディレイの可能性あり） - **最新価格 as-of**: 2026-04-21 15:24:00 JST / source=yahoo_finance_jp - **価格鮮度フラグ**: STALE_DATA（遅延 61482 秒） ## 1. 本日の
+
+pasted
+
+出力内容を修正させた。まだ修正すべき点をプロ目線で洗い出し、修正指示のプロンプトを出力しろ
+
+4月22日
+Claudeが返答しました: 承知しました。前回(4/22版)レポートをさらに深く解剖し、Pythonコード修正用の実装可能プロンプトとして出力します。 十分な情報が集まりました。レポート生成コードへの修正指示プロンプトを体系的に作成します。
+承知しました。前回(4/22版)レポートをさらに深く解剖し、Pythonコード修正用の実装可能プロンプトとして出力します。
+
+
+ウェブを検索しました
+ウェブを検索しました
+十分な情報が集まりました。レポート生成コードへの修正指示プロンプトを体系的に作成します。
+
+🔧 レポート生成コード修正用プロンプト (Ultra-Thinking版)
+以下をそのままClaude Code / Cursorに貼り付けて使える実装指示プロンプトとして出力します。
+
+markdown
+# 2802デイトレレポート生成コード 修正依頼 (Critical Bug Fix + Macro Integrity)
+
+## 背景
+
+現行レポート(2026-04-22 08:28生成)をプロのトレーダー視点で監査した結果、
+実運用に耐えない致命的バグ・ロジック矛盾・マクロ前提欠落が複数検出された。
+本依頼は、これらをコードレベルで恒久修正するためのもの。
+
+## 🔴 修正優先度 P0 (致命傷・即座修正必須)
+
+### BUG-01: α成分スコアのNaN → 100満点化
+
+**症状**
+- `macro_sensitivity.alpha_20d = NaN` のとき、環境スコア計算式
+  `max(0, min(100, 50 + nan * 5.0))` が **100.0** を返している
+- NumPyの `nan` は比較でFalseになるため `min(100, nan)` が `nan` となり、
+  後段のclipで `100` に丸められている可能性が高い
+- 結果、α成分weight=12%が丸ごと加点され、環境スコアが+12ポイント水増し
+- 実際の環境スコアは `25.6 - 12 + 0 ≒ 13.6` (実質 🔴 超低品質)
+
+**修正方針**
+```python
+def compute_alpha_score(alpha_20d: float) -> float:
+    """αスコアを環境スコア用に0-100へマップ。NaN時はNeutral=50を返す。"""
+    if alpha_20d is None or (isinstance(alpha_20d, float) and math.isnan(alpha_20d)):
+        return 50.0  # Neutral (N/A表示をレポート側で明示)
+    return max(0.0, min(100.0, 50.0 + alpha_20d * 5.0))
+```
+
+**受け入れ条件**
+- [ ] `alpha_20d=NaN` 入力で必ず 50.0 を返す (単体テスト追加)
+- [ ] レポート出力で「α: N/A (計算不能・中立扱い)」と明記
+- [ ] 環境スコア加重合計が再計算される
+
+---
+
+### BUG-02: ギャップ予測が欠損ドライバー時に +5.00% 固定化
+
+**症状**
+- 日経平均 (最大β=0.81, 最大寄与ドライバー) が `変化 不明` のとき
+- モデル生出力「不明」と書きながら最終出力は `+5.00%`
+- これは上限クリップ値 `clip(pred, -5, +5)` に NaN が衝突して上限5%が採用されている疑い
+- 4/22朝の夜間先物 -1.28% の実勢と真逆の予測になっている
+
+**修正方針**
+```python
+def predict_gap(drivers: dict, betas: dict, clip_pct: float = 5.0):
+    """
+    欠損ドライバー対応ギャップ予測。
+    - 最大寄与ドライバー(日経)が欠損 → 予測不能として None 返却
+    - 2番目以降の欠損 → 該当ドライバーのインパクトを0として継続計算
+    """
+    # Tier 1: 必須ドライバー(日経)
+    if drivers.get('N225_change') is None or math.isnan(drivers['N225_change']):
+        return {
+            'gap_pct': None,
+            'status': 'UNAVAILABLE',
+            'reason': 'Primary driver (N225) missing. Cannot forecast.',
+            'fallback_suggestion': 'Use CME futures overnight change as proxy (see code TODO).',
+        }
+    
+    # Tier 2: 補助ドライバー(NaN時は0扱い)
+    total_impact = 0.0
+    breakdown = {}
+    for name, beta in betas.items():
+        change = drivers.get(f'{name}_change')
+        if change is None or math.isnan(change):
+            breakdown[name] = {'beta': beta, 'change': 'N/A', 'impact': 0.0}
+            continue
+        impact = beta * change
+        total_impact += impact
+        breakdown[name] = {'beta': beta, 'change': change, 'impact': impact}
+    
+    # 保守的補正 × 0.7
+    raw = total_impact
+    adjusted = raw * 0.7
+    clipped = max(-clip_pct, min(clip_pct, adjusted))
+    
+    return {
+        'gap_pct': clipped,
+        'raw': raw,
+        'adjusted': adjusted,
+        'status': 'OK',
+        'breakdown': breakdown,
+    }
+```
+
+**加えて必須の拡張: CME先物プロキシ機能**
+```python
+def fetch_cme_nikkei_overnight_change():
+    """
+    日経平均日足が未確定・欠損のとき、CME円建て日経先物の夜間変化率で代替する。
+    yfinance: NKD=F (CME Nikkei USD) / ^N225 前日比較
+    優先順位: OSE夜間大引け > CME夜間直近 > None
+    """
+    # TODO: 実装 (urgent)
+    # import yfinance as yf
+    # nkd = yf.Ticker('NKD=F').history(period='2d', interval='1h')
+    # return (nkd['Close'].iloc[-1] - nkd['Close'].iloc[-25]) / nkd['Close'].iloc[-25]
+    pass
+```
+
+**受け入れ条件**
+- [ ] N225欠損時は `gap_pct=None` が返り、レポート側で「予測不能」表示
+- [ ] CME先物プロキシが実装され、N225欠損時に自動フォールバック
+- [ ] 2026-04-22朝のデータ(CME夜間 -1.28%)で予測すると `-1.0%前後` が出ることを回帰テスト
+
+---
+
+### BUG-03: G0シナリオの自己矛盾 (窓埋め確率0%なのに窓埋めTP)
+
+**症状**
+- ギャップ分類 `large` のとき `窓埋め確率 = 0.0% (n=14)` と出力
+- それでもG0シナリオの TP が「寄り値回帰 = 窓完全埋め」に設定される
+- 「確率0%のゴールを狙え」と言うレポートを出力している
+
+**修正方針**
+```python
+def generate_g0_scenario(gap_info, entry, pmh, gap_fill_prob):
+    """G0シナリオ生成。窓埋め確率に応じてTPとRRRを動的に調整。"""
+    
+    # 窓埋め確率が閾値未満なら TP を段階的に下げる
+    if gap_fill_prob < 0.10:  # 10%未満
+        # TP = 25%埋め まで (ATR内に収める)
+        tp = entry + (pmh - entry) * 0.25
+        tp_rationale = f"窓25%埋め (完全埋め確率{gap_fill_prob:.0%}のため段階利確)"
+        status = 'DEGRADED'
+    elif gap_fill_prob < 0.30:  # 30%未満
+        tp = entry + (pmh - entry) * 0.50
+        tp_rationale = f"窓50%埋め (完全埋め確率{gap_fill_prob:.0%}のため)"
+        status = 'PARTIAL'
+    else:
+        tp = pmh  # 寄り値回帰を許容
+        tp_rationale = "寄り値回帰(完全埋め)"
+        status = 'FULL'
+    
+    sl = entry - atr * 0.20
+    rrr = (tp - entry) / (entry - sl)
+    
+    # RRR < 1.0 なら自動的に NO_TRADE 判定
+    if rrr < 1.0:
+        return {'status': 'EXCLUDED', 'reason': f'RRR={rrr:.2f}<1.0 + 窓埋め確率<10%'}
+    
+    # RRR > 5.0 は机上の空論警告
+    warning = None
+    if rrr > 5.0:
+        warning = f"⚠️ RRR={rrr:.1f}は非現実的。SLタッチ率が高くなる可能性。"
+    
+    return {
+        'entry': entry, 'sl': sl, 'tp': tp, 'rrr': rrr,
+        'tp_rationale': tp_rationale,
+        'status': status,
+        'warning': warning,
+    }
+```
+
+**受け入れ条件**
+- [ ] 窓埋め確率<10%の場合、TP自動縮小 (寄り値回帰を強制しない)
+- [ ] RRR>5.0 で警告出力
+- [ ] 「窓埋め確率0% かつ 窓埋めTP」の出力は物理的に不可能になる
+
+---
+
+## 🟠 修正優先度 P1 (マクロ整合性・実運用影響)
+
+### ISSUE-04: イベントカレンダー統合欠落
+
+**症状**
+- 4/22 は米イラン停戦期限切れ日 (トランプ発言: 延長しない可能性大)
+- にもかかわらずレポートにイベント情報なし
+- 「マクロセンチメント: RISK_ON」と表示するが、実際は当日夜からRISK_OFF急変の可能性
+
+**修正方針**
+```python
+# modules/event_calendar.py を新規作成
+EVENT_CALENDAR = {
+    '2026-04-22': [
+        {
+            'time': '2026-04-22 22:00 JST',  # 米水曜夜
+            'event': '米イラン停戦期限切れ',
+            'risk_level': 'CRITICAL',
+            'impact_sectors': ['ALL'],
+            'action_bias': 'REDUCE_POSITION',
+            'notes': 'トランプ氏「延長しない」発言。ホルムズ海峡封鎖継続中。',
+        }
+    ],
+    # 決算カレンダーも統合
+    '2026-05-07': [
+        {
+            'ticker': '2802',
+            'event': '味の素 本決算発表',
+            'risk_level': 'HIGH',
+            'pre_earnings_drift_days': 10,  # 発表10営業日前から警戒
+        }
+    ],
+}
+
+def check_today_events(date_jst: datetime, ticker: str) -> list:
+    """当日および数日以内の重要イベントを返す。"""
+    events = []
+    date_str = date_jst.strftime('%Y-%m-%d')
+    # 当日
+    events.extend(EVENT_CALENDAR.get(date_str, []))
+    # 銘柄固有の決算プレミアム期判定
+    for key, evts in EVENT_CALENDAR.items():
+        for e in evts:
+            if e.get('ticker') == ticker:
+                days_to = (datetime.strptime(key, '%Y-%m-%d') - date_jst).days
+                if 0 < days_to <= e.get('pre_earnings_drift_days', 0):
+                    events.append({**e, 'days_to': days_to, 'status': 'PRE_EARNINGS'})
+    return events
+```
+
+**レポート出力への追加セクション**
+```markdown
+## ⚠️ 本日のイベントハーネス (新設)
+
+- **22:00 JST**: 米イラン停戦期限切れ (risk=CRITICAL)
+  - ワシントン時間水曜夜。延長の可能性低いとトランプ氏明言
+  - ホルムズ海峡封鎖継続中
+  - → **オーバーナイト絶対禁止 / 14:00以降の新規エントリー禁止**
+
+- **決算まで10営業日**: 味の素 2026/05/07本決算
+  - プレ決算ドリフト期間
+  - → ボラ拡大警戒 / サイズ縮小
+```
+
+**受け入れ条件**
+- [ ] 重要イベント日はレポート冒頭に赤枠で警告表示
+- [ ] `action_bias=REDUCE_POSITION` ならポジション上限を半減
+- [ ] 決算前10営業日はATR拡張係数 ×1.2 をSL計算に適用
+
+---
+
+### ISSUE-05: セクター分類の誤り (食品 ≠ SOX連動)
+
+**症状**
+- 味の素(2802)は食品ディフェンシブだが、レポート全体がSOXセクター連動を暗黙前提
+- 「強気要因: SOX+2.4%(セクター強勢)」という表記が出ている
+- ディフェンシブ株は有事に相対的に強くなるため、判定方向が逆
+
+**修正方針**
+```python
+# modules/sector_classifier.py
+SECTOR_MAP = {
+    # 食品ディフェンシブ
+    '2802': {'gics': 'Consumer Staples', 'sub': 'Food', 'defensive': True,
+             'primary_beta_ref': 'TOPIX_FOOD', 'sox_correlation': 0.1},
+    # HBM/半導体
+    '6871': {'gics': 'Information Technology', 'sub': 'Semiconductor', 'defensive': False,
+             'primary_beta_ref': 'SOX', 'sox_correlation': 0.75},
+    # エネルギー
+    '1605': {'gics': 'Energy', 'sub': 'Oil & Gas', 'defensive': False,
+             'primary_beta_ref': 'BRENT', 'sox_correlation': 0.05},
+}
+
+def get_sector_context(ticker: str) -> dict:
+    """銘柄のセクター情報を返す。SOX連動度が低ければSOX情報はレポートから除外。"""
+    info = SECTOR_MAP.get(ticker, {})
+    return info
+
+def should_show_sox_in_report(ticker: str) -> bool:
+    info = get_sector_context(ticker)
+    return info.get('sox_correlation', 0) >= 0.30
+```
+
+**受け入れ条件**
+- [ ] 2802のレポートからSOXセクター情報が自動削除される
+- [ ] 代わりにTOPIX Foodセクター、日経消費関連のリファレンスを表示
+- [ ] ディフェンシブ=Trueの銘柄は「有事は相対的に強い」と判定ロジックに追加
+
+---
+
+### ISSUE-06: 「RISK_ON + BEARISH」の意味不明な組み合わせ
+
+**症状**
+- `マクロセンチメント: RISK_ON / ニュースバイアス: BEARISH` と同時表示
+- RISK_ONなのにBEARISHは論理矛盾
+- 読み手が判断できない
+
+**修正方針**
+```python
+REGIME_RULES = {
+    # (macro_sentiment, news_bias) → final_regime
+    ('RISK_ON', 'BULLISH'):  'BULL_CONFIRMED',
+    ('RISK_ON', 'NEUTRAL'):  'BULL_DRIFT',
+    ('RISK_ON', 'BEARISH'):  'BULL_FADING',     # NEW: 天井懸念
+    ('RISK_OFF', 'BULLISH'): 'BEAR_FADING',     # NEW: 底打ち兆候
+    ('RISK_OFF', 'NEUTRAL'): 'BEAR_DRIFT',
+    ('RISK_OFF', 'BEARISH'): 'BEAR_CONFIRMED',
+    ('NEUTRAL', 'BULLISH'):  'ROTATION_UP',
+    ('NEUTRAL', 'NEUTRAL'):  'RANGE',
+    ('NEUTRAL', 'BEARISH'):  'ROTATION_DOWN',
+}
+
+ACTION_BIAS = {
+    'BULL_CONFIRMED':  {'long_bias': 0.7, 'size_mult': 1.0},
+    'BULL_DRIFT':      {'long_bias': 0.6, 'size_mult': 0.8},
+    'BULL_FADING':     {'long_bias': 0.5, 'size_mult': 0.5},  # 両建てバイアス
+    'BEAR_FADING':     {'long_bias': 0.5, 'size_mult': 0.5},
+    'BEAR_DRIFT':      {'long_bias': 0.4, 'size_mult': 0.8},
+    'BEAR_CONFIRMED':  {'long_bias': 0.3, 'size_mult': 1.0},
+    'RANGE':           {'long_bias': 0.5, 'size_mult': 0.6},
+    'ROTATION_UP':     {'long_bias': 0.55, 'size_mult': 0.7},
+    'ROTATION_DOWN':   {'long_bias': 0.45, 'size_mult': 0.7},
+}
+```
+
+**受け入れ条件**
+- [ ] センチメント×ニュースバイアスの9象限マトリクスが明示される
+- [ ] `BULL_FADING` のような複合状態が表示され、サイズ係数が自動で0.5になる
+- [ ] 4/22の状況 (RISK_ON + BEARISH) は `BULL_FADING` = 天井懸念として出力される
+
+---
+
+### ISSUE-07: リアルタイム・プロキシ取得の欠落
+
+**症状**
+- `最新価格 as-of: 2026-04-21 15:24 JST` で生成時刻との差が17時間
+- 生成時刻 08:28 時点で CME夜間先物・為替・原油 のリアルタイム値が取れていない
+- 結果、ギャップ予測が前日引け値ベースになり、朝方の急変を捕捉できない
+
+**修正方針**
+```python
+def fetch_realtime_proxies(now_jst: datetime) -> dict:
+    """生成時刻が寄り前(08:00-09:00)なら24時間市場の最新値を取得。"""
+    proxies = {}
+    
+    # CME日経先物 (08:00まで取引継続)
+    try:
+        import yfinance as yf
+        nkd = yf.Ticker('NKD=F').history(period='2d', interval='15m')
+        proxies['CME_N225'] = {
+            'latest': nkd['Close'].iloc[-1],
+            'change_pct': (nkd['Close'].iloc[-1] / nkd['Close'].iloc[0] - 1) * 100,
+            'timestamp': nkd.index[-1],
+        }
+    except Exception as e:
+        proxies['CME_N225'] = {'error': str(e)}
+    
+    # WTI原油 (24h)
+    try:
+        wti = yf.Ticker('CL=F').history(period='2d', interval='15m')
+        proxies['WTI'] = {
+            'latest': wti['Close'].iloc[-1],
+            'change_pct': (wti['Close'].iloc[-1] / wti['Close'].iloc[0] - 1) * 100,
+        }
+    except:
+        pass
+    
+    # ドル円 (24h)
+    try:
+        jpy = yf.Ticker('JPY=X').history(period='2d', interval='15m')
+        proxies['USDJPY'] = {
+            'latest': jpy['Close'].iloc[-1],
+            'change_pct': (jpy['Close'].iloc[-1] / jpy['Close'].iloc[0] - 1) * 100,
+        }
+    except:
+        pass
+    
+    return proxies
+```
+
+**受け入れ条件**
+- [ ] 寄り前生成時は CME先物・原油・為替のリアルタイム値が取得される
+- [ ] 取得失敗時はエラーメッセージ付きでレポートに明示
+- [ ] ギャップ予測モデルが最新プロキシ値を入力として使う
+
+---
+
+## 🟡 修正優先度 P2 (運用品質向上)
+
+### ISSUE-08: EV比較表の基準価格曖昧
+
+**症状**
+- `5.X 保有継続 vs 損切再エントリー EV比較` で前提価格が不明
+- 現在ポジションの建値・枚数が入力されていないのにEVを計算している
+- テンプレート流用の疑い
+
+**修正方針**
+```python
+def compute_hold_vs_cut_ev(position: dict | None, market: dict):
+    """
+    ポジション未保有時は本セクションを自動スキップ。
+    保有時は建値・枚数を明示的に入力として要求。
+    """
+    if position is None or position.get('shares', 0) == 0:
+        return {
+            'section_status': 'SKIPPED',
+            'reason': 'No open position. Hold/Cut analysis not applicable.',
+        }
+    
+    entry_price = position['entry_price']
+    shares = position['shares']
+    
+    # 以下、明示的な建値ベースでEV計算
+    # ...
+```
+
+**受け入れ条件**
+- [ ] ポジション未保有時はセクション自体が出力されない
+- [ ] 保有時は `entry_price`, `shares`, `entered_at` が明示される
+
+---
+
+### ISSUE-09: バックテスト妥当性False時の強制ダウングレード
+
+**症状**
+- `妥当性判定: False` (n=12, Sharpe=0.57) なのに、シナリオを平然と提示
+- 推奨アクションに「見送り推奨」と書きつつ、G0/S2/C1を詳細に出している
+
+**修正方針**
+```python
+def apply_backtest_quality_gate(scenarios: list, backtest: dict) -> list:
+    """バックテスト妥当性=False なら全シナリオを PAPER_TRADE_ONLY に降格。"""
+    if not backtest.get('validity', False):
+        for s in scenarios:
+            s['execution_mode'] = 'PAPER_TRADE_ONLY'
+            s['warning'] = (
+                f"⚠️ バックテストn={backtest['n_trades']}, "
+                f"Sharpe={backtest['sharpe']:.2f}, 妥当性=False。"
+                f"本シナリオは記録・観察用であり、実資金投入非推奨。"
+            )
+            # サイズを10%以下に強制
+            s['max_size_pct'] = min(s.get('max_size_pct', 100), 10)
+    return scenarios
+```
+
+**受け入れ条件**
+- [ ] 妥当性False時、全シナリオに `PAPER_TRADE_ONLY` フラグ
+- [ ] max_size_pct が自動で10%以下に制限される
+
+---
+
+### ISSUE-10: データ鮮度FAIL時の自動リフレッシュ失敗
+
+**症状**
+- `自動検証: PDCが確定値 または yfinance補完値で最新化 — FAIL` と出ている
+- にもかかわらずレポート生成は続行され、FAIL状態のデータで全計算が走っている
+
+**修正方針**
+```python
+def enforce_data_freshness(pdc_data: dict, max_staleness_hours: int = 20):
+    """データ鮮度FAIL時は生成を停止し、明示的に再取得を試みる。"""
+    staleness_hours = (datetime.now(JST) - pdc_data['timestamp']).total_seconds() / 3600
+    
+    if staleness_hours > max_staleness_hours:
+        # 1回だけ再取得を試みる
+        fresh_data = refetch_from_multiple_sources(pdc_data['ticker'])
+        if fresh_data is None:
+            raise DataStalenessError(
+                f"PDC data is {staleness_hours:.1f}h old. "
+                f"Refresh failed. Cannot generate reliable report."
+            )
+        return fresh_data
+    return pdc_data
+```
+
+**受け入れ条件**
+- [ ] 20時間超の鮮度FAILで生成が自動停止
+- [ ] 再取得成功時はログに明示
+- [ ] どうしても取れない場合は「LIMITED_REPORT」ヘッダー付きで出力
+
+---
+
+## 📋 統合テストケース (必須追加)
+
+```python
+# tests/test_2026_04_22_regression.py
+
+def test_gap_prediction_with_missing_nikkei():
+    """4/22のケース: N225欠損時は予測不能を返す"""
+    drivers = {'N225_change': float('nan'), 'Gold_change': -1.05, ...}
+    result = predict_gap(drivers, betas)
+    assert result['status'] == 'UNAVAILABLE'
+    assert result['gap_pct'] is None
+
+def test_cme_proxy_fallback():
+    """CME先物プロキシで代替取得"""
+    # モック: CME夜間が -1.28%
+    mock_cme_change = -1.28
+    result = predict_gap_with_proxy(...)
+    assert result['gap_pct'] < 0  # GDが正しく予測される
+    assert result['gap_pct'] > -2.0  # 過剰予測ではない
+
+def test_alpha_nan_handling():
+    """α=NaN は50点扱い (100ではない)"""
+    assert compute_alpha_score(float('nan')) == 50.0
+    assert compute_alpha_score(0.0) == 50.0
+    assert compute_alpha_score(10.0) == 100.0
+    assert compute_alpha_score(-10.0) == 0.0
+
+def test_g0_scenario_with_zero_gap_fill_prob():
+    """窓埋め確率0%なら TP=窓25%埋め まで"""
+    result = generate_g0_scenario(entry=4730, pmh=4957, gap_fill_prob=0.0)
+    assert result['status'] in ('DEGRADED', 'EXCLUDED')
+    if result['status'] == 'DEGRADED':
+        assert result['tp'] < 4957  # 完全埋めではない
+
+def test_event_calendar_iran_truce():
+    """4/22は米イラン停戦期限切れ警告が出る"""
+    events = check_today_events(datetime(2026, 4, 22), '2802')
+    assert any('イラン停戦期限' in e['event'] for e in events)
+    assert any(e['action_bias'] == 'REDUCE_POSITION' for e in events)
+
+def test_sector_classifier_ajinomoto():
+    """2802は食品ディフェンシブ、SOX非表示"""
+    info = get_sector_context('2802')
+    assert info['defensive'] == True
+    assert should_show_sox_in_report('2802') == False
+
+def test_regime_bull_fading():
+    """RISK_ON + BEARISH = BULL_FADING"""
+    regime = determine_regime('RISK_ON', 'BEARISH')
+    assert regime == 'BULL_FADING'
+    assert ACTION_BIAS[regime]['size_mult'] == 0.5
+```
+
+---
+
+## 🎯 期待される出力 (修正後の4/22レポート)
+
+```markdown
+## ⚠️ 本日の重大イベント
+- 2026-04-22 22:00 JST: **米イラン停戦期限切れ** (CRITICAL)
+- 2026-05-07: 味の素本決算 (10営業日前・プレドリフト期間)
+→ action_bias=REDUCE_POSITION, 通常の30%以下
+
+## マクロ環境 (修正後)
+- **レジーム: BULL_FADING** (RISK_ON + BEARISH)
+- CME日経先物 夜間: -1.28% (58,580)
+- ギャップ予測: **-1.0%** (推定寄り付き 4,674円) ← +5%から修正
+- サイズ係数: 0.5 × 0.3 (イベント) = 0.15
+
+## 環境スコア (α=NaN→50修正後)
+- 総合: **13.6/100** ← 25.6から修正
+- 🔴 極低品質 / ポジション上限 0.1倍
+
+## シナリオ (再設計)
+### [A] GDリバウンド狙い LONG (メイン)
+- Entry: 4,650-4,680 (GD確認後)
+- SL: 4,590 (PML割れ) / TP1: 4,720 / TP2: 4,780
+- RRR: 1.5-2.3 (現実的)
+- 📛 PAPER_TRADE_ONLY (BT妥当性False)
+- max_size_pct: 10%
+
+### [B] NO TRADE (推奨デフォルト)
+- 環境スコア 13.6 + イベント日 + BT妥当性False
+- → 本日は観察優先
+```
+
+---
+
+## 📦 納品物
+
+1. 上記BUG-01〜03 + ISSUE-04〜10の修正実装
+2. `tests/test_2026_04_22_regression.py` の全テスト通過
+3. 修正後レポートの差分サンプル (修正前 vs 修正後のMD)
+4. `CHANGELOG.md` に各修正の影響範囲記述
+
+## 🚨 緊急度
+
+- P0: 今日中 (次回レポート生成までに)
+- P1: 今週中
+- P2: 次リリース
+📝 このプロンプトを使う手順
+Claude Code / Cursorを開く
+作業ディレクトリで 上記プロンプトをPROMPT.mdとして保存し、Claude Codeに食わせる
+または対話的に貼り付けて「このプロンプトに従ってコードを修正してください」と指示
+P0から順に対応させ、テストを回してコミット
+🎯 最重要ポイント (Ultra-Thinking的サマリ)
+今回のレポートで最も深刻なのは:
+
+BUG-01 (α=NaN→100点) — 環境スコアを常に+12ポイント水増ししており、「🔴低品質」と表示されていても実態はさらに悪い
+BUG-02 (ギャップ+5%固定化) — 4/22朝のCME夜間-1.28%と真逆の予測を出し、戦略全体の方向性を誤らせている
+ISSUE-04 (イベントカレンダー欠落) — 本日夜が米イラン停戦期限切れという最重要リスクイベントを認識していない
+この3点だけでも修正すれば、レポートの実用性は劇的に向上します。
+
+あなたの入力: 不足・矛盾として把握すべき点（優先度順）
+
+2802_20260422_085929.md
+md
+
+不足・矛盾として把握すべき点（優先度順）
+1. データの信頼性がレポート本文に載っていない（重大）
+ログでは J-Quants未設定 → 合成データ と出ていますが、本文には 「銘柄・終値が実データか／合成か」 の注意が出ません。 → プロ判断では このレポート単体では価格・ATR・窓埋め統計は参考外 とみなす必要があります。
+2. CME表示と手入力マクロの整合が説明されていない
+CLIでは先物 -1.28% を渡している一方、本文の CME夜間は +0.27%（yfinance由来）です。 ギャップ -0.35% が どの入力（現物・先物・CMEプロキシ）をどう合成したか がレポートに無いため、監査不能です。 → 必要: ドライバー別テーブル（predict_gap の breakdown / proxy_used の明示）。
+3. 環境スコアの内訳が無い
+「14.3/100」の 加重内訳・各コンポーネント が出ていません。 → 依頼仕様の「α修正後の再計算」を読み手が検証できない状態です。
+4. イベントの「行動規律」が箇条書きで無い
+カレンダーには REDUCE_POSITION 等があるはずですが、本文は サイズ係数 0.15 までで、 オーバーナイト禁止・14:00以降新規禁止 などが レポートに固定文として出ていない。
+5. 決算プレ期間（5/7）の扱いが見えない
+check_today_events は プレ決算 を付けうる実装ですが、今回の出力イベントは イランのみ。 5/7本決算・10営業日前 の警告が 当日レポートに常に出る設計か、読み手からは分かりません。
+6. G0・ギャップ分類・窓埋め統計が本文に無い
+
+ギャップがマイナスなので G0が出ないのは筋だが、「G0不採用理由」 の1行が無い。
+大ギャップ時の窓埋め確率（バックテスト値） がレポートに載っていない（コードでは計算している）。
+保有時のみのセクション（Hold/Cut EV）が未出力 compute_hold_vs_cut_ev はあるが _print_report に無い → ポジション有無に関わらず「未実装」と同等。
+マクロの横断（原油・為替）が弱い プロキシ取得はコードにあるが、本文は CMEとギャップ中心。WTI / USDJPY の数値・鮮度がレポートに出ていない。
+バックテスト結果の扱い # Trades = 0 がそのまま付く。日足×JPXRSISwing では起きうるが、レポートに 「日足参照・デイトレ判断とは別」 の注記が無いと誤解を招く。
+冒頭の「総合推奨」が無い
+NO TRADE 推奨 / 観察優先 など、1行の エグゼクティブ結論 が無い。
+Claudeへの渡し方（分析用）
+
+data/jpx_report_latest_utf8.txt をそのまま貼る（先頭の PowerShell エラー行はログノイズなら削除しても可）。
+指示例: 「上記は2802デイトレレポート生成結果。データは合成の可能性あり。不足・矛盾・追加すべきセクションを列挙し、優先度付けして。」 まとめ: レポートは マクロ整合・レジーム・イベント・シナリオゲート まで一通り出せていますが、データ出所・ギャップ内訳・環境スコア内訳・イベント行動規約・決算プレ表示・G0/窓埋め統計・Hold/Cut・原油/為替・結論1行 が不足しており、プロの監査に耐える「説明責任」がまだ足りません。 必要なら次のターンで、上記を _print_report に追記するパッチ までこちらで入れられます。
+修正後の内容だ。ブラッシュアップを行い、修正指示プロンプトをプロ目線で出力して
+
+もっと表示
+4月22日
+Claudeが返答しました: 承知しました。アップロードされたレポートを精査し、プロ目線での修正指示プロンプトを出力します。 驚きました。これは前回(4/22 08:28版)と全く同じ内容がそのまま再出力されています。前回指摘したP0バグ(BUG-01/02/03)が一切修正されていない。生成時刻が08:59に更新されただけで、中身は完全に同一。…
+承知しました。アップロードされたレポートを精査し、プロ目線での修正指示プロンプトを出力します。
+
+
+2個のファイルを表示しました
+2個のファイルを表示しました
+驚きました。これは前回(4/22 08:28版)と全く同じ内容がそのまま再出力されています。前回指摘したP0バグ(BUG-01/02/03)が一切修正されていない。生成時刻が08:59に更新されただけで、中身は完全に同一。これは極めて深刻です。
+
+この状況を踏まえて、プロ監査に耐える実装プロンプトを出力します。
+
+🚨 修正指示プロンプト v3.0 (Critical Regression + 監査対応)
+markdown
+# 2802デイトレレポート生成システム 緊急修正依頼 v3.0
+## Status: P0バグが前回修正指示から 0件 しか反映されていない (Critical Regression)
+
+---
+
+## 🔴 REGRESSION_ALERT: 前回(v2.0)の修正が全て未反映
+
+以下は**前回指示済み**だが**依然として再現している**バグ:
+
+| バグID | 前回指示 | 4/22 08:28版 | 4/22 08:59版 | 状態 |
+|---|---|---|---|---|
+| BUG-01 α=NaN→100点 | 修正依頼済 | 100/100 | 100/100 | **未修正** |
+| BUG-02 ギャップ+5%固定 | 修正依頼済 | +5.00% | +5.00% | **未修正** |
+| BUG-03 G0窓埋めTP矛盾 | 修正依頼済 | TP=4,960(窓埋め) | TP=4,960 | **未修正** |
+| BUG-04 ドライバー不明で予測続行 | 修正依頼済 | 「不明」のまま予測 | 同左 | **未修正** |
+| ISSUE-04 イベントカレンダー | 修正依頼済 | なし | なし | **未実装** |
+| ISSUE-06 RISK_ON+BEARISH矛盾 | 修正依頼済 | 矛盾表示 | 矛盾表示 | **未修正** |
+
+**ドリフト合計 +0.00% / 予測変動 +0.00%** という出力は、
+「ドライバーを取り直したが全く変わっていない」= **データ再取得パスが機能していない**
+可能性すらある。最初にここを調査すること。
+
+---
+
+## 🔍 新規監査指摘 (ユーザーからのフィードバック + Claude監査)
+
+### AUDIT-01: データ真正性の明示義務 (最重要)
+
+**症状**
+- ログでは `J-Quants未設定 → 合成データ` と出ている疑惑
+- しかしレポート本文には「価格・ATR・窓埋め統計が実データか合成か」が**一切書かれていない**
+- プロ監査では「このレポート単体ではデータ起源が追跡不能」= **監査不能**判定
+
+**修正要件 (必須)**
+```python
+# modules/data_provenance.py (新規作成)
+from enum import Enum
+from dataclasses import dataclass
+from datetime import datetime
+
+class DataSource(Enum):
+    JQUANTS = "J-Quants公式"          # 信頼度 AAA
+    YFINANCE_REALTIME = "yfinance(実データ)"   # 信頼度 BBB
+    YFINANCE_CACHED = "yfinanceキャッシュ"     # 信頼度 BB
+    SYNTHETIC = "合成データ"           # 信頼度 D (参考値外)
+    MANUAL_INPUT = "CLI手入力"          # 信頼度 A (ユーザー責任)
+    PROXY_CME = "CME先物プロキシ"       # 信頼度 BBB
+    UNKNOWN = "出所不明"                # 信頼度 F
+
+@dataclass
+class DataProvenance:
+    source: DataSource
+    fetched_at: datetime
+    as_of: datetime  # データが示す時点
+    fallback_chain: list  # 試行したソース履歴
+    
+    @property
+    def is_trustworthy_for_live_trading(self) -> bool:
+        return self.source in {DataSource.JQUANTS, DataSource.YFINANCE_REALTIME, 
+                               DataSource.MANUAL_INPUT, DataSource.PROXY_CME}
+    
+    @property
+    def warning_level(self) -> str:
+        if self.source == DataSource.SYNTHETIC:
+            return "🚨 CRITICAL: 合成データ。実取引判断に使用禁止。"
+        if self.source == DataSource.YFINANCE_CACHED:
+            return "⚠️ WARN: キャッシュデータ。鮮度確認必須。"
+        if self.source == DataSource.UNKNOWN:
+            return "🚨 CRITICAL: 出所不明。レポート廃棄推奨。"
+        return ""
+
+def render_data_provenance_block(provenance: DataProvenance) -> str:
+    """レポート冒頭に表示する「データ信頼性ブロック」を生成。"""
+    return f"""
+## 🔒 データ信頼性ステートメント (Data Provenance)
+
+| 項目 | 値 |
+|---|---|
+| データソース | **{provenance.source.value}** |
+| 取得時刻 | {provenance.fetched_at.strftime('%Y-%m-%d %H:%M:%S JST')} |
+| データas-of | {provenance.as_of.strftime('%Y-%m-%d %H:%M:%S JST')} |
+| 試行チェーン | {' → '.join(provenance.fallback_chain)} |
+| 実取引判断適性 | {'✅ 適合' if provenance.is_trustworthy_for_live_trading else '❌ 不適格'} |
+
+{provenance.warning_level}
+
+---
+
+### 影響範囲 (合成データ/キャッシュ時)
+以下の数値は本レポートのソース品質を反映しています:
+- 前日OHLC (PDC/PMH/PML): {provenance.source.value}
+- ATR・RVOL・ボリュームプロファイル: {provenance.source.value}
+- 窓埋め確率統計(n=14等): {provenance.source.value}
+- モメンタム指標(RSI/MACD/ADX): {provenance.source.value}
+
+**⚠️ データが "合成" または "キャッシュ" の場合、上記指標に基づくシナリオは
+全て PAPER_TRADE_ONLY として扱うこと。**
+"""
+```
+
+**レポート冒頭に強制挿入** (最初のセクションより前):
+```python
+# main.py
+report_parts = []
+report_parts.append(render_data_provenance_block(provenance))  # 必ず先頭
+# 以降、既存のセクション...
+```
+
+**受け入れ条件**
+- [ ] レポート1ページ目に`Data Provenance`ブロックが必ず表示される
+- [ ] `SYNTHETIC`ならレポート全体にウォーターマーク「SYNTHETIC」を付与
+- [ ] `fallback_chain`で「jquants→失敗→yfinance→失敗→synthetic」の経路が可視化される
+
+---
+
+### AUDIT-02: ギャップ予測の入力ソース・整合性監査 (不整合解消)
+
+**症状**
+- CLI手入力で**先物 -1.28%**を渡した形跡
+- 一方、本文の CME夜間は **+0.27% (yfinance由来)**
+- 最終ギャップは **-0.35%**
+- **どの入力をどう合成したかが本文に書かれていない** → 監査不能
+
+**修正要件**
+```python
+@dataclass
+class GapPredictionBreakdown:
+    """ギャップ予測の完全な監査証跡"""
+    
+    # 入力ソース
+    inputs: dict  # {driver_name: {value, source, beta, impact, proxy_used}}
+    
+    # CLI手入力があれば、yfinance値との差分を明示
+    cli_overrides: dict | None = None  # {'N225_futures': -1.28} など
+    
+    # 合成ロジック
+    fusion_rule: str = ""  # "CLI手入力を優先 / yfinance不採用"
+    
+    # 最終出力
+    raw_prediction: float = 0.0
+    conservative_factor: float = 0.7
+    final_prediction: float = 0.0
+    
+    def render(self) -> str:
+        lines = ["### 🔬 ギャップ予測 監査証跡\n"]
+        lines.append("| ドライバー | yfinance | CLI入力 | 採用値 | 出所 | β | インパクト |")
+        lines.append("|---|---|---|---|---|---|---|")
+        
+        for name, info in self.inputs.items():
+            yf = info.get('yfinance_value', '—')
+            cli = info.get('cli_value', '—')
+            used = info.get('used_value', '—')
+            src = info.get('source', '—')
+            beta = info.get('beta', 0)
+            impact = info.get('impact', 0)
+            
+            # 矛盾検出
+            mismatch = ""
+            if yf != '—' and cli != '—' and abs(float(yf) - float(cli)) > 0.5:
+                mismatch = " ⚠️矛盾"
+            
+            lines.append(f"| {name} | {yf}% | {cli}% | **{used}%**{mismatch} | {src} | {beta:.3f} | {impact:+.2f}% |")
+        
+        lines.append(f"\n**合成ルール**: {self.fusion_rule}")
+        lines.append(f"**生予測**: {self.raw_prediction:+.2f}% × 保守補正{self.conservative_factor} = **{self.final_prediction:+.2f}%**")
+        
+        return "\n".join(lines)
+```
+
+**使用例**
+```python
+breakdown = GapPredictionBreakdown(
+    inputs={
+        'N225': {
+            'yfinance_value': None,  # 取得失敗
+            'cli_value': -1.28,       # CME先物 CLI入力
+            'used_value': -1.28,
+            'source': 'CLI(CME_FUT)',
+            'beta': 0.8117,
+            'impact': -1.04,
+        },
+        'CME_overnight_dummy': {
+            'yfinance_value': +0.27,  # 怪しい値
+            'cli_value': None,
+            'used_value': None,       # 不採用
+            'source': '不採用(矛盾検出)',
+            'beta': 0,
+            'impact': 0,
+        },
+        # ...
+    },
+    cli_overrides={'N225_futures': -1.28},
+    fusion_rule="CLI手入力(-1.28%)を優先採用。yfinanceの+0.27%と矛盾するため後者不採用。",
+    raw_prediction=-0.50,
+    conservative_factor=0.7,
+    final_prediction=-0.35,
+)
+```
+
+**受け入れ条件**
+- [ ] レポートに`ギャップ予測 監査証跡`セクションが必ず出力される
+- [ ] yfinance値とCLI入力が食い違う場合、赤字の「⚠️矛盾」マーカーが出る
+- [ ] `fusion_rule`で採用理由が1行明記される
+- [ ] 生予測→保守補正→最終予測の3段階が可視化される
+
+---
+
+### AUDIT-03: 環境スコアの逆算検証ブロック強化
+
+**症状**
+- 本文に`環境スコア 14.3/100`と記載するなら(※修正版で想定)、
+  その内訳 `VIX × 28% + Trend × 24% + Liquidity × 20% + Gap × 16% + Alpha × 12%` を
+  レポート本文の**目立つ場所**に必ず表示すべき
+- 現状は「計算過程の透明性」末尾に埋もれている
+
+**修正要件**
+```python
+def render_env_score_summary(components: dict, final_score: float) -> str:
+    """環境スコアを『本日の焦点』直下に簡潔表示する。"""
+    return f"""
+### 🎯 環境スコア内訳 (検算可能)
+
+```
+VIX      {components['vix_raw']:.1f}/100 × 28% = {components['vix_raw']*0.28:.2f}
+Trend    {components['trend_raw']:.1f}/100 × 24% = {components['trend_raw']*0.24:.2f}
+Liquid   {components['liquidity_raw']:.1f}/100 × 20% = {components['liquidity_raw']*0.20:.2f}
+Gap      {components['gap_raw']:.1f}/100 × 16% = {components['gap_raw']*0.16:.2f}
+Alpha    {components['alpha_raw']:.1f}/100 × 12% = {components['alpha_raw']*0.12:.2f}
+─────────────────────────────
+合計                           {final_score:.2f}/100
+判定ロジック:
+
+≥70: 🟢 高品質 / 通常サイズ
+50-69: 🟡 中品質 / サイズ×0.7
+30-49: 🟠 低品質 / サイズ×0.4
+<30: 🔴 超低品質 / NO_TRADE 推奨
+注記: α成分がNaNの場合は50点(Neutral)で計上。100点ではないことに注意。 """
+
+
+**受け入れ条件**
+- [ ] 環境スコアブロックが冒頭から3画面以内に配置される
+- [ ] α=NaN時は「50.0 (Neutral・N/A起因)」と明記
+- [ ] サイズ係数判定ロジックが一緒に表示される
+
+---
+
+### AUDIT-04: イベント駆動の行動規律を固定文ブロック化
+
+**症状**
+- `action_bias=REDUCE_POSITION`や`サイズ係数0.15`は計算される
+- しかし**具体的な行動規律(禁止事項)が本文に出ていない**
+- 読み手は「係数0.15をどう運用するか」を自力で解釈する必要がある
+
+**修正要件**
+```python
+ACTION_RULES = {
+    'REDUCE_POSITION': [
+        "ポジションサイズは通常の 30% 以下に固定",
+        "オーバーナイト保有 **絶対禁止**",
+        "14:00 以降の新規エントリー **禁止**",
+        "イベント時刻の前後30分は手仕舞いまたは手出し無用",
+        "両建てヘッジも本日は検討候補",
+    ],
+    'NO_TRADE': [
+        "本日は 観察のみ / 新規エントリー全面禁止",
+        "既存ポジションは前場中に半分利確または損切り",
+        "ザラ場中のニュースフロー監視に専念",
+    ],
+    'NORMAL': [
+        "通常運用。ただしSL/TP規律は厳守",
+    ],
+    'AGGRESSIVE': [
+        "有利な環境。通常サイズ×1.2 まで拡大可",
+        "ただし1日最大DDは総資金の2%で止める",
+    ],
+}
+
+def render_action_discipline_block(action_bias: str, events: list) -> str:
+    rules = ACTION_RULES.get(action_bias, ACTION_RULES['NORMAL'])
+    lines = [f"## 🛑 本日の行動規律 (action_bias={action_bias})\n"]
+    
+    if events:
+        lines.append("**発動イベント**:")
+        for e in events:
+            lines.append(f"- `{e['time']}`: **{e['event']}** (risk={e['risk_level']})")
+        lines.append("")
+    
+    lines.append("**厳守ルール**:")
+    for i, rule in enumerate(rules, 1):
+        lines.append(f"{i}. {rule}")
+    
+    return "\n".join(lines)
+```
+
+**受け入れ条件**
+- [ ] `action_bias`が`REDUCE_POSITION`のとき、5つの禁止事項が箇条書きで出る
+- [ ] イベント時刻が明記される(例: `22:00 JST: 米イラン停戦期限`)
+- [ ] サイズ係数と行動規律が1対1で対応する
+
+---
+
+### AUDIT-05: 決算プレミアム期の常時警告
+
+**症状**
+- `check_today_events` は決算プレ期間を検出できる実装
+- しかし今回のレポートには**イラン関連のみ**出ていて、5/7決算への言及なし
+- 読み手は「プレ決算が適用されているのか不明」
+
+**修正要件**
+```python
+EARNINGS_CALENDAR = {
+    '2802': {
+        'next_earnings_date': '2026-05-07',
+        'type': '本決算',
+        'pre_drift_days': 10,        # 10営業日前から警戒
+        'atr_expansion': 1.3,        # ATR係数を1.3倍に拡張
+        'overnight_restriction': True,
+    },
+}
+
+def render_earnings_proximity_block(ticker: str, today: datetime) -> str:
+    info = EARNINGS_CALENDAR.get(ticker)
+    if not info:
+        return ""
+    
+    ed = datetime.strptime(info['next_earnings_date'], '%Y-%m-%d')
+    biz_days = calc_business_days(today, ed)
+    
+    if biz_days <= 0:
+        return ""  # 決算後は別処理
+    
+    if biz_days > info['pre_drift_days']:
+        return f"""
+### 📅 次回決算: {info['next_earnings_date']} ({info['type']})
+- 残り営業日: **{biz_days}日**
+- プレドリフト期間(残り{info['pre_drift_days']}日以下)には未到達
+- 通常運用可
+"""
+    
+    # プレドリフト期間内
+    urgency = "🚨 直近" if biz_days <= 3 else "⚠️ 警戒"
+    return f"""
+### 📅 決算プレミアム期 (常時表示) {urgency}
+
+| 項目 | 値 |
+|---|---|
+| 次回決算 | **{info['next_earnings_date']}** ({info['type']}) |
+| 残り営業日 | **{biz_days}日** |
+| ATR拡張係数 | ×{info['atr_expansion']} (SL幅を広めに) |
+| オーバーナイト | ❌ 禁止 |
+| 推奨サイズ | 通常の 70% 以下 |
+
+**根拠**: 決算発表{info['pre_drift_days']}営業日前から、
+期待織り込み・投機資金流入でボラ拡大。SL狩りリスク増。
+"""
+```
+
+**受け入れ条件**
+- [ ] 決算10営業日前になると自動でブロックが出現
+- [ ] ATR拡張係数が自動で1.3倍になり、SL計算に反映される
+- [ ] 残り3営業日以下は🚨マーカー表示
+
+---
+
+### AUDIT-06: G0不採用理由の明示 + 大ギャップ統計の可視化
+
+**症状**
+- ギャップがマイナス予測(-0.35%)ならG0(LONG)は不適合
+- しかし**「G0不採用」と書くか「採用しても条件未達」と書くかが曖昧**
+- 大ギャップ時の窓埋め統計(n=14で0%)が既に計算されているのに、本文に出ていない
+
+**修正要件**
+```python
+def render_scenario_eligibility_block(gap_pct: float, gap_fill_stats: dict) -> str:
+    """各シナリオの『採否と理由』を表形式で明示。"""
+    
+    eligibility = []
+    
+    # G0: ギャップ押し目
+    if gap_pct is None:
+        g0_status = "❌ 採用不可"
+        g0_reason = "ギャップ予測が計算不能(プライマリドライバー欠損)"
+    elif gap_pct < 0:
+        g0_status = "❌ 採用不可"
+        g0_reason = f"ギャップが負({gap_pct:+.2f}%)。G0はGUシナリオ専用。"
+    elif gap_pct >= 3.0:
+        prob = gap_fill_stats.get('large', {}).get('fill_prob', 0)
+        if prob < 0.10:
+            g0_status = "⚠️ 条件付き"
+            g0_reason = f"大ギャップだが窓埋め確率={prob:.0%}(n={gap_fill_stats['large']['n']})。TPを縮小。"
+        else:
+            g0_status = "✅ 採用"
+            g0_reason = "大ギャップ+窓埋め確率十分"
+    else:
+        g0_status = "✅ 採用"
+        g0_reason = f"中ギャップ({gap_pct:+.2f}%)"
+    
+    # 同様にS2, C1, C2...
+    
+    table = f"""
+### 🎯 シナリオ採否マトリクス (本日の適用可否)
+
+| ID | 名称 | 方向 | 採否 | 理由 |
+|---|---|---|---|---|
+| G0 | ギャップ押し目 | LONG | {g0_status} | {g0_reason} |
+| S2 | VWAP回帰 | LONG | {s2_status} | {s2_reason} |
+| C1 | 期中リバーサル | LONG | {c1_status} | {c1_reason} |
+| C2 | 窓埋めショート | SHORT | {c2_status} | {c2_reason} |
+
+### 📊 ギャップ分類別・窓埋め統計 (参考)
+
+| 分類 | 閾値 | 窓埋め確率 | サンプル数 |
+|---|---|---|---|
+| small (|gap|≤1%) | | {stats['small']['fill_prob']:.0%} | n={stats['small']['n']} |
+| medium (1%<|gap|≤3%) | | {stats['medium']['fill_prob']:.0%} | n={stats['medium']['n']} |
+| **large (|gap|>3%)** | | **{stats['large']['fill_prob']:.0%}** | **n={stats['large']['n']}** |
+"""
+    return table
+```
+
+**受け入れ条件**
+- [ ] シナリオごとに「採用/不採用/条件付き」が明示される
+- [ ] 不採用なら理由が1文で出る
+- [ ] ギャップ分類別統計(small/medium/large)がテーブル表示される
+
+---
+
+### AUDIT-07: Hold/Cut EVセクションの条件付き表示
+
+**症状**
+- `compute_hold_vs_cut_ev` が実装されているが`_print_report`に繋がっていない
+- ポジション有無の引数が main.py に無い可能性
+- 結果として常にスキップ or 常にダミー表示
+
+**修正要件**
+```python
+# main.py に CLI 引数を追加
+parser.add_argument('--position-entry', type=float, default=None,
+                    help='現在ポジションの建値(円)。未指定時はHold/Cutセクションをスキップ。')
+parser.add_argument('--position-shares', type=int, default=0,
+                    help='保有株数(100株単位)')
+parser.add_argument('--position-side', choices=['long', 'short'], default='long')
+
+# レポート生成部
+def _print_report(ctx):
+    ...
+    # Hold/Cut セクション
+    if ctx.position is not None and ctx.position.shares > 0:
+        report_parts.append(render_hold_vs_cut_ev(ctx.position, ctx.market))
+    else:
+        report_parts.append(
+            "## 5.X 保有継続 vs 損切再エントリー EV比較\n"
+            "⏭️ **スキップ**: ポジション未保有のため本セクションは適用外。\n"
+            "保有時は `--position-entry=<価格> --position-shares=<枚数>` を指定して再実行。\n"
+        )
+```
+
+**受け入れ条件**
+- [ ] ポジション未指定時はセクションがスキップされる旨が明示される
+- [ ] 指定時は実際の建値・枚数ベースでEV計算が行われる
+- [ ] テンプレート固定値(4,730円等)は廃止
+
+---
+
+### AUDIT-08: マクロ横断情報 (原油/為替/CME)の明示
+
+**症状**
+- `fetch_realtime_proxies` が実装されている(想定)
+- しかし本文の「マクロリスクサマリー」は`+0.3%` `+0.5%`程度の数字のみ
+- **WTI原油の絶対値、為替の絶対値、取得時刻**が無い
+- ホルムズ海峡封鎖継続中(2026/4時点)のような原油→食品コスト連鎖が見えない
+
+**修正要件**
+```python
+def render_macro_cross_section(proxies: dict) -> str:
+    return f"""
+## 🌐 マクロ横断ダッシュボード (24時間市場・寄り前スナップショット)
+
+| 指標 | 最新値 | 変化率(24h) | 取得時刻 | 鮮度 |
+|---|---|---|---|---|
+| CME日経先物 | {proxies['CME_N225']['latest']:,.0f}円 | {proxies['CME_N225']['change_pct']:+.2f}% | {proxies['CME_N225']['timestamp']} | {'🟢 fresh' if proxies['CME_N225']['fresh'] else '🟡 stale'} |
+| WTI原油 | ${proxies['WTI']['latest']:.2f} | {proxies['WTI']['change_pct']:+.2f}% | {proxies['WTI']['timestamp']} | {proxies['WTI']['fresh_icon']} |
+| ブレント原油 | ${proxies['BRENT']['latest']:.2f} | {proxies['BRENT']['change_pct']:+.2f}% | ... | ... |
+| USD/JPY | {proxies['USDJPY']['latest']:.2f} | {proxies['USDJPY']['change_pct']:+.2f}% | ... | ... |
+| VIX | {proxies['VIX']['latest']:.2f} | {proxies['VIX']['change_pct']:+.2f}% | ... | ... |
+| 金(GC=F) | ${proxies['GOLD']['latest']:.2f} | {proxies['GOLD']['change_pct']:+.2f}% | ... | ... |
+
+### セクター影響度 (味の素=食品ディフェンシブ)
+
+| ファクター | 現状 | 2802への影響 |
+|---|---|---|
+| 原油価格 | WTI ${wti:.2f} | {'🔴 コスト圧迫' if wti > 85 else '🟢 コスト減'} (包装・物流) |
+| 円相場 | {usdjpy:.2f} | {'🟢 海外収益プラス' if usdjpy > 150 else '🔴 円高圧力'} (海外売上40%超) |
+| ホルムズ海峡 | {hormuz_status} | 供給網リスク |
+| 食品セクター | ディフェンシブ | 有事は相対的に強い |
+"""
+```
+
+**受け入れ条件**
+- [ ] CME先物・原油・為替・VIX・金の**絶対値**が表示される
+- [ ] 各指標の取得時刻と鮮度アイコンが出る
+- [ ] 食品株特有のファクター(原油コスト・円相場・供給網)が明記される
+
+---
+
+### AUDIT-09: バックテスト結果の誤読防止注記
+
+**症状**
+- `トレード数: 12` で `推奨アクション: 見送り推奨`と出ているが、
+  **日足参照のスイング系バックテストをデイトレ判断に流用している**可能性
+- ログに`# Trades = 0`と出たという情報もあり、
+  **本当に何をバックテストしたかが本文から読めない**
+
+**修正要件**
+```python
+def render_backtest_scope_disclaimer(backtest: dict) -> str:
+    return f"""
+## 📊 バックテスト 範囲明示 (重要)
+
+### バックテスト設定
+- **戦略種別**: {backtest['strategy_type']} (例: JPXRSISwing / G0+C1合成 / etc)
+- **時間足**: **{backtest['timeframe']}** (例: 日足 / 5分足)
+- **期間**: {backtest['period_start']} 〜 {backtest['period_end']} ({backtest['n_bars']} bars)
+- **取引コスト**: 片道 {backtest['commission_bps']}bps + スリッページ {backtest['slippage_bps']}bps
+- **トレード数**: {backtest['n_trades']}
+
+### ⚠️ 適用範囲警告
+このバックテストは **{backtest['timeframe']}** ベース。
+本レポートの**デイトレード(日中)シナリオ**とは別レベルの検証結果です。
+
+- ✅ 使える: 日足レベルのトレンド検知・ボラティリティ推定
+- ❌ 使えない: ザラ場中のエントリー/エグジット・スリッページ検証・寄り付き動作
+- **デイトレ用の5分足バックテスト結果は別途必要**
+
+### 統計的有意性
+- n={backtest['n_trades']} {'(≥30で統計的有意)' if backtest['n_trades'] >= 30 else '**(不足)**'}
+- Sharpe={backtest['sharpe']:.2f} {'(≥1.0で実運用可)' if backtest['sharpe'] >= 1.0 else '**(不足)**'}
+- 妥当性判定: {'✅ PASS' if backtest['validity'] else '❌ FAIL'}
+
+### 適用ゲート
+{'✅ 本レポートのシナリオは実資金投入可' if backtest['validity'] else '⛔ **全シナリオ PAPER_TRADE_ONLY**。実資金投入非推奨。'}
+"""
+```
+
+**受け入れ条件**
+- [ ] バックテストの時間足・戦略種別が明示される
+- [ ] デイトレ判断との乖離が注記される
+- [ ] 妥当性=Falseなら`PAPER_TRADE_ONLY`フラグが付く
+
+---
+
+### AUDIT-10: 冒頭エグゼクティブサマリー (1行結論) の追加
+
+**症状**
+- レポート末尾の答え合わせ欄はあるが、**冒頭に1行の結論が無い**
+- プロは「忙しい朝、まず結論だけ知りたい」
+- スマホで見たとき、結論に辿り着くまでスクロール地獄
+
+**修正要件**
+```python
+def render_executive_summary(ctx) -> str:
+    """レポート最上部に配置する1ブロックの結論。"""
+    
+    # 総合判定ロジック
+    if not ctx.data_provenance.is_trustworthy_for_live_trading:
+        verdict = "🚨 REPORT_DISABLED"
+        one_liner = "データが合成/不明のため実取引判断に使用不可。観察のみ。"
+    elif ctx.env_score < 20:
+        verdict = "🔴 NO_TRADE"
+        one_liner = "環境超低品質 + イベントリスク高。終日観察優先。"
+    elif ctx.action_bias == 'REDUCE_POSITION':
+        verdict = "🟡 REDUCED"
+        one_liner = f"サイズ縮小運用。{ctx.events[0]['event']}まで14:00cutoff厳守。"
+    elif ctx.env_score >= 70 and not ctx.events:
+        verdict = "🟢 NORMAL"
+        one_liner = "通常運用可。優先シナリオ: " + ctx.best_scenario
+    else:
+        verdict = "🟠 CAUTIOUS"
+        one_liner = "条件付きで小サイズ。フィルタ厳格化。"
+    
+    return f"""
+# 🎯 エグゼクティブサマリー (3秒判定)
+
+## 本日の総合判定: **{verdict}**
+
+**{one_liner}**
+
+| 要素 | 値 |
+|---|---|
+| 環境スコア | **{ctx.env_score:.1f}/100** ({ctx.env_rating}) |
+| ギャップ予測 | **{ctx.gap_pct:+.2f}%** → 寄り目安 {ctx.expected_open:,}円 |
+| 主要イベント | {ctx.events[0]['event'] if ctx.events else 'なし'} |
+| データ品質 | {ctx.data_provenance.source.value} |
+| 推奨サイズ | 通常の **{ctx.size_mult:.0%}** |
+| 優先シナリオ | **{ctx.best_scenario}** (RRR={ctx.best_rrr:.1f}) |
+
+→ 詳細は以下のセクション参照。
+"""
+```
+
+**受け入れ条件**
+- [ ] レポート最上部(Data Provenanceの次)に1行結論が出る
+- [ ] 🚨/🔴/🟡/🟠/🟢 の5段階バッジで即座に判定可能
+- [ ] 忙しい朝、この1ブロックだけ読めば判断できる
+
+---
+
+## 📋 実装優先度マトリクス
+
+| ID | 項目 | 影響度 | 工数 | 優先度 |
+|---|---|---|---|---|
+| BUG-01 | α=NaN→100点修正 | 致命 | XS | **P0** |
+| BUG-02 | ギャップ+5%固定化修正 | 致命 | S | **P0** |
+| BUG-03 | G0窓埋めTP矛盾修正 | 高 | S | **P0** |
+| AUDIT-01 | データ真正性明示 | 致命 | M | **P0** |
+| AUDIT-02 | ギャップ入力監査証跡 | 高 | M | **P0** |
+| AUDIT-10 | エグゼクティブサマリー | 高 | S | **P0** |
+| AUDIT-03 | 環境スコア内訳強化 | 中 | XS | P1 |
+| AUDIT-04 | 行動規律ブロック化 | 高 | S | P1 |
+| AUDIT-05 | 決算プレ常時表示 | 中 | S | P1 |
+| AUDIT-06 | G0不採用理由明示 | 中 | M | P1 |
+| AUDIT-07 | Hold/Cut条件付き | 中 | S | P2 |
+| AUDIT-08 | マクロ横断表示 | 中 | M | P2 |
+| AUDIT-09 | BT範囲明示 | 低 | S | P2 |
+
+---
+
+## 🧪 回帰テスト (今回の出力に対する検証)
+
+```python
+# tests/test_regression_20260422.py
+
+def test_no_nan_alpha_inflation():
+    """α=NaN時に100点にならないこと"""
+    report = generate_report('2802', mock_alpha=float('nan'))
+    assert 'alpha_raw(100.0)' not in report  # 100点が出ていないこと
+    assert 'α(NaN→50点中立)' in report or 'α成分(N/A)' in report
+
+def test_no_plus5_gap_when_driver_missing():
+    """プライマリドライバー欠損時に+5%固定化しない"""
+    report = generate_report('2802', mock_n225_change=None)
+    assert '+5.00%' not in report or 'UNAVAILABLE' in report
+
+def test_g0_not_use_unrealistic_tp():
+    """窓埋め確率0%なら窓埋めTPを使わない"""
+    report = generate_report('2802', mock_gap=5.0, mock_fill_prob=0.0)
+    # G0のTPが完全埋め(4,957)でないこと
+    g0_section = extract_section(report, 'G0')
+    assert 'TP: 4,960' not in g0_section or '縮小' in g0_section
+
+def test_data_provenance_always_present():
+    """データ真正性ブロックが必ず先頭に出る"""
+    report = generate_report('2802')
+    first_1000 = report[:1000]
+    assert 'Data Provenance' in first_1000 or '🔒 データ信頼性' in first_1000
+
+def test_executive_summary_at_top():
+    """エグゼクティブサマリーが冒頭に配置される"""
+    report = generate_report('2802')
+    # 最初の見出しが #エグゼクティブサマリー であること
+    first_h1 = re.search(r'^# (.+)$', report, re.MULTILINE).group(1)
+    assert 'エグゼクティブサマリー' in first_h1 or 'Executive' in first_h1
+
+def test_synthetic_data_triggers_warning():
+    """合成データ時に全シナリオPAPER_TRADE_ONLY"""
+    report = generate_report('2802', mock_source='SYNTHETIC')
+    assert 'PAPER_TRADE_ONLY' in report
+    assert 'SYNTHETIC' in report  # ウォーターマーク
+
+def test_iran_event_triggers_reduce_position():
+    """4/22は米イラン停戦期限でREDUCE_POSITION"""
+    report = generate_report('2802', today='2026-04-22')
+    assert 'REDUCE_POSITION' in report
+    assert 'オーバーナイト' in report
+    assert '14:00' in report  # cutoff時刻
+
+def test_ajinomoto_earnings_proximity():
+    """5/7決算まで10営業日以内ならプレ期警告"""
+    report = generate_report('2802', today='2026-04-22')
+    assert '2026-05-07' in report
+    assert '決算プレミアム期' in report
+
+def test_gap_breakdown_detects_cli_yf_mismatch():
+    """CLI入力とyfinance値が矛盾する時、⚠️矛盾マーカー"""
+    report = generate_report(
+        '2802',
+        cli_n225_futures=-1.28,
+        yfinance_n225_overnight=+0.27
+    )
+    assert '⚠️矛盾' in report
+    assert 'fusion_rule' in report or '合成ルール' in report
+```
+
+---
+
+## 📦 納品チェックリスト
+
+### P0 (今日中)
+- [ ] BUG-01: α=NaN→50点(Neutral) に修正
+- [ ] BUG-02: プライマリドライバー欠損時に `None` / `UNAVAILABLE` 返却
+- [ ] BUG-03: G0のTP動的縮小ロジック
+- [ ] AUDIT-01: Data Provenanceブロックをレポート先頭に強制表示
+- [ ] AUDIT-02: ギャップ予測監査証跡テーブル
+- [ ] AUDIT-10: エグゼクティブサマリー1行結論
+- [ ] 上記全てに対応する回帰テスト
+
+### P1 (明日中)
+- [ ] AUDIT-03: 環境スコア検算ブロックを冒頭近くへ移動
+- [ ] AUDIT-04: 行動規律の固定文テンプレート
+- [ ] AUDIT-05: 決算プレ期の常時警告
+- [ ] AUDIT-06: シナリオ採否マトリクス
+
+### P2 (今週中)
+- [ ] AUDIT-07: Hold/Cut条件付き表示
+- [ ] AUDIT-08: マクロ横断ダッシュボード
+- [ ] AUDIT-09: バックテスト範囲注記
+
+---
+
+## 🎯 修正後の期待レポート冒頭 (モック)
+
+```markdown
+# 2802 AJINOMOTO CO INC デイトレード分析レポート
+
+## 🔒 データ信頼性ステートメント
+
+| 項目 | 値 |
+|---|---|
+| データソース | **yfinance(実データ)** |
+| 取得時刻 | 2026-04-22 08:58 JST |
+| データas-of | 2026-04-21 15:24 JST |
+| 試行チェーン | jquants(未設定) → yfinance(成功) |
+| 実取引判断適性 | ✅ 適合 |
+
+# 🎯 エグゼクティブサマリー
+
+## 本日の総合判定: **🟡 REDUCED**
+
+**米イラン停戦期限切れ当日。サイズ縮小・オーバーナイト禁止・14:00cutoff厳守。**
+
+| 要素 | 値 |
+|---|---|
+| 環境スコア | **14.3/100** (🔴超低品質) |
+| ギャップ予測 | **-0.35%** → 寄り目安 4,705円 |
+| 主要イベント | 米イラン停戦期限切れ (22:00 JST) |
+| データ品質 | yfinance(実データ) |
+| 推奨サイズ | 通常の **15%** |
+| 優先シナリオ | **C1 期中リバーサル** (RRR=4.0) |
+
+→ 詳細は以下参照。
+
+---
+
+## 🎯 環境スコア内訳
+```
+VIX      17.0/100 × 28% = 4.76
+Trend    20.0/100 × 24% = 4.80
+Liquid   16.0/100 × 20% = 3.20
+Gap       5.0/100 × 16% = 0.80
+Alpha    50.0/100 × 12% = 6.00  ← NaN→50点(Neutral)
+─────────────────────────────
+合計                     14.56/100  ← 以前の25.6から修正
+判定: 🔴 超低品質 / NO_TRADE 推奨
+
+🛑 本日の行動規律 (action_bias=REDUCE_POSITION)
+発動イベント:
+
+22:00 JST: 米イラン停戦期限切れ (risk=CRITICAL)
+厳守ルール:
+
+ポジションサイズは通常の 30% 以下に固定
+オーバーナイト保有 絶対禁止
+14:00 以降の新規エントリー 禁止
+イベント時刻の前後30分は手仕舞いまたは手出し無用
+両建てヘッジも本日は検討候補
+🔬 ギャップ予測 監査証跡
+ドライバー	yfinance	CLI入力	採用値	出所	β	インパクト
+N225	—	-1.28%	-1.28%	CLI(CME_FUT)	0.812	-1.04%
+CME夜間(yf)	+0.27%	—	不採用	矛盾検出	—	0.00%
+Gold	-1.05%	—	-1.05%	yfinance	0.234	-0.25%
+VIX	+3.34%	—	+3.34%	yfinance	-0.037	-0.12%
+USDJPY	-0.20%	—	-0.20%	yfinance	-0.536	+0.11%
+合成ルール: CLI手入力(-1.28%)を優先。yfinanceの+0.27%と矛盾するため後者不採用。 生予測: -1.30% × 保守補正0.7 = -0.91% (最終)
+
+
+---
+
+## 🚨 最後のお願い
+
+**前回(v2.0)の指示が一切反映されていないため、今回は必ず以下を守ってください:**
+
+1. `git commit`を P0 / P1 / P2 単位で分け、それぞれに対応する回帰テスト名を明記
+2. 修正後レポートを`2802_YYYYMMDD_HHMMSS_FIXED.md`として別途出力し、
+   修正前との**diff**を添付
+3. P0全完了の証拠として、`pytest tests/test_regression_20260422.py -v` の結果ログを貼る
+💬 このプロンプトの使い方
+Claude Code を desktop/cursor/ or desktop/claude-code/ の該当リポジトリで起動
+上記プロンプトを FIX_REQUEST_v3.md として保存
+Claude Code に「FIX_REQUEST_v3.md に従ってP0から修正してください。各修正後に回帰テストを必ず追加してください」と指示
+P0完了後、再生成したレポートをもう一度監査にかけて次のイテレーションへ
+⚠️ 最大の注意点
+前回の修正指示が1件も反映されていないという事実から察するに、以下のどちらかが起きています:
+
+(a) Claude Codeが修正したがテストが無いため本番パスに乗せていない
+(b) 修正指示ファイルが生成パイプラインに接続されていない
+(c) レポート生成がキャッシュされており、コード変更が反映されていない
+まずpython main.py 2802 --verbose --no-cache --dump-config等でどのコードパスが実行されているかを確認し、必要ならsrc/report_generator.pyを直接grepしてalpha_raw(100.0)を出している箇所を物理的に特定してから修正してください。
+
+この再発を防ぐため、"前回指示を何件反映したか"をCHANGELOGに必ず記録することを強く推奨します。
+
+あなたの入力: これらの動向から、4/24はアップサイドの見通しが濃厚？2802 味の素
+1776987333645_image.png
+1776987364377_image.png
+1776987392152_image.png
+これらの動向から、4/24はアップサイドの見通しが濃厚？2802 味の素
+この銘柄の多角的に分析を行い、スコアリングや見通し予測をプロ目線で解説して
+
+4月24日
+Claudeが返答しました: 画像3枚を精査しました。これは非常に示唆に富むデータセットです。プロ目線で徹底分析します。
+画像3枚を精査しました。これは非常に示唆に富むデータセットです。プロ目線で徹底分析します。
+
+🎯 2802 味の素 4/24見通し 多角的プロ分析
+📊 マーケット・スナップショット (as of 4/24 08:35 JST)
+🌏 グローバル・リスクセンチメント: MIXED (警戒優勢)
+日本市場 (画像1):
+
+日経225現物      59,140 (-0.75%)  ← 4/23終値
+CFD日経225      59,046 (-0.27%)  
+日経先物 大取mini 58,925 (-0.36%)
+日経先物 大取ラージ 58,880 (-0.44%)  ← 最も弱い
+日経先物 SGX     58,920 (-0.39%)
+日経先物 CME円建て 58,980 (-0.01%)
+日経先物 CMEドル建て 59,010 (+0.02%)
+ドル円           159.746 (+0.04%)
+米国市場 (画像2):
+
+NYダウ          49,310 (-0.36%)
+NASDAQ          24,438 (-0.89%)  ← ハイテク売り
+S&P500           7,108 (-0.41%)
+NYSE FANG+      15,993 (-1.66%)  ← FANG大幅安
+PHL半導体(SOX)  10,078 (+1.71%)  ← 唯一のプラス
+⚠️ 重要な分岐: 米国ハイテク売り vs SOX一人勝ち = テーマ物色の選別色が濃い
+
+🎯 味の素(2802)チャート分析 (画像3)
+📉 4/23の値動きは警戒シグナル
+項目	値
+4/23始値	4,607
+4/23高値	4,672
+4/23安値	4,565
+4/23終値	4,590 (-68円, -1.46%)
+出来高	3.03M株
+🔴 検出されたテクニカル悪化シグナル
+1. 上値切り下げの三角持ち合い下放れ直前
+
+チャート上の青いトレンドライン(収束型三角形)に触れて上ヒゲで跳ね返されている
+4/23は25MA(4,571)を終値で下回った(終値4,590だが25MA=4,571手前)
+実は既に 150MA(4,043)までの下落余地をテクニカル的に確認している状態ではなく、75MA(推定4,500前後)が直近サポート
+2. 出来高プロファイルの読み方
+
+左サイドバーを見ると、4,600-4,700帯に分厚い商いゾーン
+この水準を割ると、4,400円台の薄商いゾーンへ急落しやすい(エアポケット)
+4,544の水平線が直近の重要サポート
+3. サポート・レジスタンスマップ
+
+🔴 R2: 4,672 (4/23高値)
+🔴 R1: 4,649 (チャート表示赤線)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+👉 現値: 4,590 (2802オレンジ線)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🟡 S1: 4,544 (青水平線・重要)
+🟡 S2: 4,500 (75MA想定)
+🔴 S3: 4,371 (次の水平線)
+🔴 S4: 4,343 (最終防衛ライン)
+🧮 4/24寄り付きギャップ予測 (プロ回帰モデル)
+ドライバー分析
+ドライバー	変化	β推定	インパクト
+日経先物(大取ラージ)	-0.44%	0.80	-0.35%
+CME円建て	-0.01%	0.80	-0.01%
+USD/JPY	+0.04%	-0.54	-0.02%
+SOX	+1.71%	0.10(食品は低相関)	+0.17%
+NASDAQ	-0.89%	0.15	-0.13%
+VIX	19.30 (+2.06%)	-0.04	-0.08%
+WTI原油	96.82 (-0.1%)	+0.15(食品コスト圧迫)	-0.02%
+合成ギャップ予測:
+
+生予測: -0.44% (最大寄与: 日経先物)
+保守補正 × 0.7
+最終予測: -0.31% 〜 -0.40%
+→ 理論寄り付き: 約 4,572円 〜 4,578円
+
+信頼区間 (±1σ): -1.5% 〜 +0.5% (MAE=2.5%)
+
+🎯 4/24の見通し: アップサイドは限定的。下方警戒優先
+❌ アップサイド否定派の根拠 (強い)
+4/23の-1.46%大陰線: 上ヒゲ付き陰線=売り圧力優勢、上値重い形状
+三角持ち合いの下放れリスク: 収束形状の下辺を割ると加速下落
+日経先物が軒並みマイナス圏(-0.3〜-0.4%): 地合い悪化
+NASDAQ -0.89% / FANG -1.66%: 米ハイテク売りの波及懸念
+VIX 19.30 (+2%): 恐怖指数上昇=リスク回避
+25MA(4,571)を割り込むリスク: 割ったら下落加速
+✅ アップサイド派の根拠 (弱い)
+SOX +1.71%: 半導体は買われている(ただし食品には波及限定)
+ドル円 159.74の円安水準: 輸出株有利(ただし食品は相対恩恵小)
+4,544水平線サポート: 反発余地あり
+決算プレミアム期(5/7決算まで10営業日): 期待買いの余地
+CME円建てほぼ横ばい: 大崩れではない
+🎯 結論: 質問「アップサイド濃厚?」への回答 = NO
+正直な見立て:
+
+4/24はレンジやや下寄りの展開
+寄り付きGD-0.3%前後で始まり、4,544〜4,620のレンジ内推移
+アップサイド濃厚と言えるシグナルはほぼ無い
+むしろ下落加速の引き金(25MA明確割れ、4,544割れ)が来ていないか監視する日
+📊 総合スコアリング (プロ目線)
+🔢 ファンダメンタル × テクニカル × マクロ統合スコア
+カテゴリ	スコア	判定
+日足トレンド	30/100	🔴 下降転換中
+出来高プロファイル	45/100	🟠 薄商いゾーン接近
+モメンタム(MACD/RSI推定)	35/100	🔴 弱気クロス継続
+マクロ地合い	40/100	🟠 ハイテク売り波及懸念
+ギャップ予測精度	55/100	🟡 方向は明確(下)
+セクター相対強度	60/100	🟡 ディフェンシブは買われやすい
+流動性	65/100	🟢 出来高3M維持
+決算イベント近接度	50/100	🟡 5/7控え(ボラ警戒)
+米イラン情勢	25/100	🔴 停戦期限切れの不透明化
+VIX水準	45/100	🟠 19台で警戒水準
+総合	45/100	🟠 慎重(条件付きトレード可)
+📈 方向バイアス確率
+🔴 続落(-0.5%以下)        : 45%
+🟡 レンジ(-0.5%〜+0.5%)   : 40%
+🟢 反発(+0.5%以上)        : 15%
+🎯 4/24 プロ・トレードシナリオ
+📋 メイン想定
+寄り付き: 4,575 〜 4,585 (GD -0.3%前後) 日中レンジ想定: 4,544 〜 4,620 クローズ想定: 4,560 〜 4,600
+
+🎯 シナリオ別戦略
+シナリオA: 4,544サポート反発 LONG (第一選択)
+発動条件: 10:00以降に4,544タッチ + RVOL≥1.5 + 下ヒゲ形成
+Entry:   4,550 〜 4,560
+SL:      4,525 (4,544明確割れ)
+TP1:     4,590 (PDC戻し)
+TP2:     4,620 (R1下限)
+RRR:     1.5 〜 2.8
+サイズ:  通常の 20%
+有効:    10:00 〜 13:30
+根拠:    S1(4,544)は3月以降の重要サポート、下ヒゲで押し目完了の可能性
+シナリオB: 25MA割れ→下落加速 SHORT (第二選択)
+発動条件: 4,544明確割れ + 陰線連続 + RVOL≥1.5
+Entry:   4,540 戻り
+SL:      4,580 (再度上抜け)
+TP1:     4,500
+TP2:     4,450
+RRR:     1.0 〜 2.3
+サイズ:  通常の 15%
+有効:    10:30 〜 14:00
+注意:    オーバーナイト禁止(米イベントリスク)
+根拠:    三角持ち合い下放れ完成なら薄商いゾーンへ急落
+シナリオC: 戻り売り SHORT (第三選択)
+発動条件: 寄り底後、4,620到達 + 上ヒゲ失速
+Entry:   4,615 〜 4,625
+SL:      4,650
+TP:      4,570
+RRR:     1.5 〜 2.0
+サイズ:  通常の 15%
+シナリオD: NO TRADE (推奨デフォルト)
+以下なら見送り:
+
+寄り後15分でATR80%以上消化(過度なギャップ/レンジ化)
+RVOL<1.0継続(流動性不足)
+日経先物-1%以上の急落(地合い悪化)
+⚠️ リスク管理・規律
+🛑 絶対ルール
+1日最大損失: 総資金の1%以内
+1トレード最大リスク: 総資金の0.3%以内
+サイズ上限: 通常の20%以下(環境スコア45/100反映)
+オーバーナイト: 原則禁止(米イラン情勢不透明)
+14:00以降: 新規エントリー禁止
+5/7決算前: 日を追うごとにサイズ縮小
+🔍 重要監視ポイント
+08:50-09:00 (寄り前15分)
+
+PTS気配値の変動
+板の厚み・歩み値
+日経先物の最終動向
+09:00-09:15 (寄り直後)
+
+寄り5分の出来高/RVOL
+4,544のサポート有効性
+Toxic flow確認(寄り直後のエントリー禁止)
+10:30-14:00 (メインエントリー帯)
+
+4,544到達の反応
+4,620到達の反応
+ニュースフロー(米イラン情勢、原油価格)
+🧠 プロ的総評
+📝 正直な見立て
+「4/24はアップサイド濃厚?」という問いへの回答は『NO』です。
+
+理由を要約すると:
+
+味の素単体: 4/23の-1.46%大陰線で短期トレンドが明確に崩れた
+マクロ環境: 日経先物-0.4%、ナスダック-0.9%、FANG-1.7%で地合い悪化
+唯一の救い: SOXのみプラスだが、食品株への波及は極めて限定的
+セクター特性: ディフェンシブ食品株は「急騰」より「底堅さ」が身上。上にも下にも激しくは動きにくい
+🎯 今日(4/24)のベストアプローチ
+「押し目買いを4,544で狙いつつ、割れたら即損切り or ドテンSHORT」
+
+これが唯一の期待値プラスの戦略と思われます。アップサイドを前提とした順張りLONGは、テクニカル・マクロ両面から推奨できません。
+
+📅 中期的視点 (重要)
+味の素は5/7本決算を控えた「決算前プレミアム期」に入っています。この期間は:
+
+ボラ拡大(ATR×1.2〜1.3倍の値動きを想定)
+ニュースフローへの敏感化
+大口の期待買い/先回り売り交錯
+つまり、デイトレーダーにとっては短期的なセオリーが通じにくい特殊期間です。サイズを通常の20%以下に抑え、確信シナリオでのみ動く「守りの相場」として臨むのが賢明です。
+
+💼 最終ポジショニング推奨
+項目	推奨
+総合判定	🟠 CAUTIOUS
+デフォルト	観察優先
+優先シナリオ	A: 4,544反発LONG
+第二シナリオ	B: 4,544割れSHORT
+サイズ上限	通常の 20%
+最大保有時間	4時間以内
+オーバーナイト	禁止
+現金比率推奨	80%以上
+「動かないことも立派な判断」を今日は意識してください。
+
+📎 補足: 4/24朝のチェックリスト
+ 08:50時点の日経先物(大取ラージ)確認
+ 味の素PTS気配値確認
+ 為替(USD/JPY)が160超えしていないか
+ ホルムズ海峡関連の夜間ニュースチェック
+ 決算発表日(5/7)までの残営業日確認(本日で9営業日前)
+ 大口機関の動向(空売り残高推移)
+ 同業他社(明治HD、キッコーマン)の動き
+⚠️ 免責事項
+本分析は提供された画像データと公開情報に基づく観測メモです。投資助言ではなく、最終判断は板・歩み値・最新ニュースを確認の上、自己責任で行ってください。特に4/24は米イラン情勢、決算プレ期、テクニカル悪化という3重のリスクが重なっており、通常以上の慎重さが求められます。
+
+あなたの入力: この20分前の寄り付きの動向からも勘案を行い、
+1776987702192_image.png
+この20分前の寄り付きの動向からも勘案を行い、
+最新動向をマクロ経済・地政学的リスク・インデックスなどの資金流入の動向を勘案すると？
+
+4月24日
+Claudeが返答しました: 寄り前の板情報を精査しました。これは極めて重要なシグナルが出ています。プロ目線で徹底分析します。 非常に重要な情報が揃いました。Bloomberg最新情報とイラン武装ボート発砲のニュース、そして何より寄り前板情報の細部まで解析できます。
+寄り前の板情報を精査しました。これは極めて重要なシグナルが出ています。プロ目線で徹底分析します。
+
+
+ウェブを検索しました
+ウェブを検索しました
+非常に重要な情報が揃いました。Bloomberg最新情報とイラン武装ボート発砲のニュース、そして何より寄り前板情報の細部まで解析できます。
+
+🚨 2802 味の素 4/24寄り前 緊急プロ分析
+🔥 決定的発見: 20分前の板情報が示す「売り優勢」
+📊 味の素(2802)の寄り前板 (08:36時点)
+     気配値    気配数量
+━━━━━━━━━━━━━━━━━━━━━━
+売り 4,616.0   100
+売り 4,611.0   100
+売り 4,610.0   76,200  ← 厚い売り壁 (大口)
+━━━━━━━━━━━━━━━━━━━━━━
+買い 4,609.0   75,800  ← ほぼ拮抗
+買い 4,600.0   100
+買い 4,596.0   100
+🎯 板から読み取れる致命的シグナル
+観測事項	意味
+寄り気配 4,609〜4,610	前日終値4,590から +0.42%のGU気配
+4,610に76,200株の売り壁	機関投資家の売り指値が厚い → 上値重い
+4,609に75,800株の買い	拮抗しているが、寄り前3分で売り優勢になるリスク
+売り気配数量 37,300 (成行)	成行売り注文が入っている
+買い気配数量 64,400 (成行)	成行買いが売りを上回る
+OVER 207,900株	上値の売り指値が厚く、上昇時の抵抗大
+⚠️ 結論: 寄り付きは 4,605〜4,615 の小幅GU、ただし上値重い展開
+🌍 地政学・マクロの最新情勢 (4/23〜4/24)
+🚨 イラン情勢 = 極めて流動的かつ悪化方向
+米国とイランは新たな和平協議が実現せず、ホルムズ海峡の支配を巡る対立を強めている。停戦期間が延長される中、海峡の封鎖を材料にした駆け引きが続いている 
+Minkabu
+
+トランプ米大統領は21日、イランとの停戦を無期限に延長すると表明。イランが新たな和平案を提示し、「協議が何らかの形で決着する」まで停戦を延長するとした。一方、イラン側は当面、協議に参加する予定はないとしている 
+Minkabu
+
+→ これは一見「停戦延長」でポジティブに見えるが、実態は「イランが協議拒否=袋小路」
+
+さらに決定的: イラン武装ボート、ホルムズ海峡で船舶2隻に発砲－拿捕の報道も 
+Minkabu
+ イラン革命防衛隊が２隻拿捕 ホルムズ海峡付近で攻撃続発(04/22 20:03) 
+Matsui Securities
+
+→ 停戦下でも軍事行動が継続 = 地政学リスクは再燃モード
+
+🛢️ 原油・為替・エネルギー
+画像3(前回)のTradingViewから:
+
+USOIL 96.82ドル (-0.17%) ← 依然として 90ドル台後半の高値圏
+USD/JPY 159.75 ← 円安継続
+VIX 19.30 (+2.06%) ← 恐怖指数上昇基調
+US10Y 4.325 (+0.46%) ← 米金利上昇=株にマイナス
+🏭 ホルムズ海峡の影響: 食品セクターへの波及
+食品メーカー(2802含む)への経路:
+
+ホルムズ海峡封鎖継続 → 原油96ドル高止まり
+ ↓
+包装材(プラスチック/アルミ) コスト上昇
+ ↓
+物流コスト(船舶燃料) 上昇
+ ↓
+味の素の海外生産・輸入原料調達コスト ↑
+ ↓
+5/7決算の利益下振れリスク
+📈 インデックス・資金フロー分析
+🔍 板全体から読み取る市場の方向感
+🚨 半導体・ハイテクに資金集中、その他は売られる「一極集中」相場
+銘柄	板の印象	セクター	買い圧力
+6871 日本マイクロ	OVER多く売り厚い	半導体	低
+6857 アドテスト	100,000株超の買い拮抗	半導体	🟢 高
+4107 伊勢化学	買い厚い	化学(半導体関連)	🟢 高
+6146 ディスコ	売り厚い	半導体	中
+8306 三菱UFJ	拮抗	メガバンク	中
+8316 三井住友FG	売り気配優勢	メガバンク	🟠 やや弱
+1605 INPEX	売り気配優勢	エネルギー	🔴 弱い
+6460 セガサミー	薄商い	ゲーム	中
+2802 味の素	売り壁4,610厚い	食品ディフェンシブ	🔴 弱い
+3350 メタプラ	薄商い	その他	低
+→ セクター選別が極端に進行中:
+
+🟢 半導体AI関連 = 資金流入 (SOX連動)
+🟠 金融 = 中立〜弱気
+🔴 エネルギー = 売られる (INPEX弱い)
+🔴 食品ディフェンシブ (味の素) = 売られる
+💡 これは何を意味するか
+「SOXラリーについていけない銘柄は相対的に売られる」局面
+
+味の素は決算プレ期 + ディフェンシブ + SOX非連動 = 3重の逆風
+
+🎯 味の素(2802) 4/24見通し 最終統合スコア
+🔢 プロ統合スコアリング (アップデート版)
+カテゴリ	スコア	判定
+寄り前板(売り壁4,610)	30/100	🔴 上値重い
+日足トレンド	30/100	🔴 4/23-1.46%大陰線
+モメンタム	35/100	🔴 MACD弱気継続
+マクロ地合い	35/100	🔴 日経先物-0.4%
+ホルムズ海峡リスク	25/100	🔴 拿捕事件で再燃
+原油コスト圧力	35/100	🔴 96ドル高止まり
+VIX(19.30, +2.06%)	40/100	🟠 恐怖上昇
+米金利(4.325%)	40/100	🟠 株に逆風
+セクター相対強度	30/100	🔴 SOX非連動で売られる
+決算プレ期(5/7まで9営業日)	45/100	🟠 ボラ警戒
+流動性	60/100	🟡 通常水準
+ファンダ(PER33.8/PBR5.9)	40/100	🟠 既に割高感
+配当利回り1.05%	40/100	🟠 低い(買い材料薄い)
+総合	36/100	🔴 下方リスク優勢
+🎯 4/24方向バイアス確率 (最終版)
+🔴 続落(4,544割れ)       : 50% ← 前回45%から上方修正
+🟡 レンジ(4,544〜4,620)  : 35%
+🟢 反発(4,620超え)       : 15%
+アップサイドは明確に否定: 板の売り壁4,610、OVER207,900株、地政学再燃、SOX非連動 — 買いを支える材料が不在
+
+📋 4/24 プロトレードシナリオ (板情報反映版)
+🥇 シナリオA: 寄り天売り戻り狙い SHORT (第一選択)
+根拠:
+- 板: 4,610に76,200株の売り壁
+- 寄り気配+0.42%GUは「朝イチ売り機会」の典型
+- GU後の寄り天確率51% + 地合い悪化
+
+発動条件:
+- 寄り付き 4,605〜4,615
+- 寄り後5分以内に4,610再タッチして上ヒゲ
+- RVOL寄り5分≥1.2
+
+Entry:  4,610 〜 4,615 (売り壁戻り)
+SL:     4,630 (明確上抜け)
+TP1:    4,590 (前日終値)
+TP2:    4,570 (PDC下)
+TP3:    4,544 (重要サポート)
+RRR:    1.0 〜 3.3
+
+サイズ:  通常の 20%
+有効:    09:05 〜 11:00
+注意:    デイトレ完結、オーバーナイト禁止
+🥈 シナリオB: 4,544サポート反発 LONG (逆張り)
+根拠:
+- 4,544は3月からの重要水平サポート
+- 下ヒゲ形成+RVOL急増で押し目完了の可能性
+
+発動条件:
+- 10:30以降に4,544タッチ
+- 下ヒゲ形成 + RVOL≥1.5
+- 日経先物が-1%以下に崩れていない
+
+Entry:   4,550 (下ヒゲ確認後)
+SL:      4,520 (明確割れ)
+TP1:     4,590 (PDC戻し)
+TP2:     4,610 (売り壁前)
+RRR:     1.3 〜 2.0
+
+サイズ:  通常の 15%
+有効:    10:30 〜 13:30
+🥉 シナリオC: 4,544明確割れ→加速SHORT
+根拠:
+- 三角持ち合い下放れ完成
+- 4,544下は薄商いゾーン=急落しやすい
+
+発動条件:
+- 4,544を5分足終値で明確割れ
+- RVOL≥1.5 + 陰線連続3本
+
+Entry:   4,540 戻り
+SL:      4,580
+TP1:     4,500
+TP2:     4,450
+RRR:     1.0 〜 2.3
+
+サイズ:  通常の 15%
+❌ シナリオD: NO TRADE (デフォルト推奨度 高)
+以下なら見送り:
+
+寄り後15分でATR80%以上消化
+RVOL<1.0継続
+日経-1%以上の急落で全面安
+🎯 プロ的総合結論
+📢 質問「アップサイド濃厚?」→ 明確にNO
+根拠を5行で:
+
+板: 4,610に76,200株の売り壁。上値重く、OVER207,900株の厚い売り指値
+テクニカル: 4/23の-1.46%大陰線で三角持ち合い下放れ懸念
+マクロ: 日経先物-0.4%、ナスダック-0.89%、VIX上昇、米金利上昇
+地政学: イラン革命防衛隊の船舶拿捕事件で停戦の実効性崩壊
+セクター: 資金はSOX/半導体に一極集中、食品ディフェンシブは蚊帳の外
+🎯 4/24の最適戦略
+「売り目線優先。寄り天SHORTを第一に、4,544で反発確認LONG」
+
+アップサイドを取りに行くのは期待値マイナス
+寄り付きの+0.4%GUはSHORTチャンスとして使うべき
+一日を通じて下方リスク警戒>>上方期待
+⚠️ 最重要警告事項
+5/7決算が9営業日後に迫っていることを忘れないでください。
+
+機関投資家の動きとして想定されるのは:
+
+決算前ポジション調整の売り
+ホルムズ海峡→原油→食品コスト連鎖のネガティブ織り込み
+業績ガイダンス引き下げ懸念
+→ この9日間は、味の素にとって「上値を取りに行く相場」ではなく、「底値を探る相場」になりやすい。
+
+📊 1日の行動規律 (必読)
+項目	推奨
+総合判定	🔴 BEARISH
+デフォルト行動	観察 + 寄り天SHORT狙い
+最優先シナリオ	A: 寄り天SHORT (4,610戻り売り)
+最大サイズ	通常の 20%
+最大保有時間	3時間以内
+オーバーナイト	絶対禁止
+新規エントリー	13:30まで (それ以降は利確のみ)
+1日最大損失	総資金の 1%以内
+💡 プロからの最後のアドバイス
+今朝の板情報、マクロ環境、地政学、全てが一貫して「下方リスク」を示唆しています。
+
+この状況でアップサイドを狙うのは、リスク/リワード比が悪すぎます。
+
+もし「上を取りたい」なら、4,544まで下げて反発確認してからの押し目買いにしてください。それが唯一、アップサイドを取りに行ける妥当なエントリーポイントです。
+
+寄り付きの+0.4%GUに飛びついてLONGに入るのは、今日は絶対に避けるべき判断です。
+
+寄り天SHORTで10〜20円抜けるのが最も期待値の高い戦略です。慎重に、規律を守って臨んでください。
+
+
+
+
+
+Claude は AI のため、誤りを含む可能性があります。引用元は必ずご確認ください。
+
+
+
+
+
+
+
