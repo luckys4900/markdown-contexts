@@ -1,6 +1,6 @@
 ---
 title: "trading_guide"
-date: "2026-04-27T08:33:56.667Z"
+date: "2026-04-27T09:10:40.754Z"
 source: "C:\Users\ライズコーポレーション\Desktop\context\exports\trading_guide.txt"
 category: "crypto"
 ---
