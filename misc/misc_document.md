@@ -1,6 +1,6 @@
 ---
 title: "misc_document"
-date: "2026-04-27T09:10:21.317Z"
+date: "2026-04-28T02:36:41.029Z"
 source: "C:\Users\ライズコーポレーション\Desktop\context\exports\misc_document.md"
 category: "misc"
 ---
