@@ -1,6 +1,6 @@
 ---
 title: "opencode_initial"
-date: "2026-04-28T02:36:42.983Z"
+date: "2026-04-28T07:58:57.681Z"
 source: "C:\Users\ライズコーポレーション\Desktop\context\exports\opencode_initial.md"
 category: "tools"
 ---
