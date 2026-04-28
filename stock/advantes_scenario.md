@@ -1,6 +1,6 @@
 ---
 title: "advantes_scenario"
-date: "2026-04-28T02:36:19.665Z"
+date: "2026-04-28T07:58:35.218Z"
 source: "C:\Users\ライズコーポレーション\Desktop\context\exports\advantes_scenario.md"
 category: "stock"
 ---
