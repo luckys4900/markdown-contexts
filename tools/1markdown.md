@@ -1,6 +1,6 @@
 ---
 title: "1markdown"
-date: "2026-04-28T07:58:30.749Z"
+date: "2026-04-28T08:22:53.506Z"
 source: "C:\Users\ライズコーポレーション\Desktop\context\exports\1markdown.txt"
 category: "tools"
 ---
