@@ -1,6 +1,6 @@
 ---
 title: "md_output_policy"
-date: "2026-04-28T07:58:53.758Z"
+date: "2026-04-28T08:23:18.832Z"
 source: "C:\Users\ライズコーポレーション\Desktop\context\exports\md_output_policy.md"
 category: "analysis"
 ---
