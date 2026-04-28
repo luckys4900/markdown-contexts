@@ -1,6 +1,6 @@
 ---
 title: "quarterly_report"
-date: "2026-04-28T07:59:03.895Z"
+date: "2026-04-28T08:23:31.709Z"
 source: "C:\Users\ライズコーポレーション\Desktop\context\exports\quarterly_report.txt"
 category: "stock"
 ---
