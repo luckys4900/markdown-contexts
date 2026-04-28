@@ -1,6 +1,6 @@
 ---
 title: "latest_price"
-date: "2026-04-27T09:10:44.683Z"
+date: "2026-04-28T02:36:37.175Z"
 source: "C:\Users\ライズコーポレーション\Desktop\context\exports\latest_price.md"
 category: "stock"
 ---
