@@ -1,6 +1,6 @@
 ---
 title: "research_findings"
-date: "2026-04-27T09:10:29.152Z"
+date: "2026-04-28T02:36:51.258Z"
 source: "C:\Users\ライズコーポレーション\Desktop\context\exports\research_findings.txt"
 category: "analysis"
 ---
