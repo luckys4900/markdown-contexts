@@ -1,6 +1,6 @@
 ---
 title: "sample"
-date: "2026-04-27T09:10:31.048Z"
+date: "2026-04-28T02:36:53.305Z"
 source: "C:\Users\ライズコーポレーション\Desktop\context\exports\sample.md"
 category: "misc"
 ---
